@@ -5,12 +5,16 @@ This repository is a portfolio of data science projects I've completed for self 
 
 ## Data Analysis 
 
-Python Project Title
+What is data analysis?
 
 ## Data Visualization
 
+What is data visualization?
+
 
 ## Machine Learning
+
+What is machine learning?
 
 
 
