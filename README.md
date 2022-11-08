@@ -7,13 +7,7 @@ This repository is a portfolio of data science projects I've completed for self 
 
 Python Project Title
 
-
-
-
 ## Data Visualization
-
-
-## SQL Projects
 
 
 ## Machine Learning
