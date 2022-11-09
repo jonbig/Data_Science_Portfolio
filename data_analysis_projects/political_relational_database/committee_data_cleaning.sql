@@ -20,3 +20,11 @@ CREATE TABLE `colorado_project`.`committee_data` (
 /*****************************************/
 
 
+LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\committee_data_test.csv" 
+INTO TABLE committee_data CHARACTER 
+SET latin1 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\r\n' ;
+
+
