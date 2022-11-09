@@ -1,5 +1,5 @@
 /********************************************************************/
-/*SQL Data Cleaning/Preprocessing Candidate Data Scrape from tracer*/
+/*SQL Data Cleaning/Preprocessing Candidate Data Scraped from tracer*/
 /********************************************************************/
 
 /*Creating table in MYSQL Workbench*/
