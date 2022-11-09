@@ -33,7 +33,7 @@ LINES TERMINATED BY '\r\n' ;
 
 /*****************************************/
 
-/*Changing name column from 'last, firs't to 'first last' format */
+/*Changing name column from 'last, first' to 'first last' format */
 
 UPDATE candidates
 SET candidate_name = CONCAT( 
@@ -42,3 +42,15 @@ SET candidate_name = CONCAT(
   SUBSTRING(candidate_name, 1, LOCATE(',', candidate_name) - 1)
 )
 WHERE candidate_name = 'AHREND, JARED';
+
+/*****************************************/
+
+/*Changing text in political party column */
+
+UPDATE candidate_data
+SET political_party = 'Democrat'
+WHERE political_party = 'Democratic'
+
+/*****************************************/
+
+
