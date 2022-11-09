@@ -8,7 +8,7 @@ CREATE TABLE `colorado_project`.`candidate_data` (
   `candidate_name` VARCHAR(45) NULL,
   `candidate_email` VARCHAR(45) NULL,
   `candidate_id` VARCHAR(45) NULL,
-  `committee_id` VARCHAR(45) NULL,
+  `committee_id` VARCHAR(45) NOT NULL,
   `committee_address` VARCHAR(45) NULL,
   `website` VARCHAR(45) NULL,
   `phone` VARCHAR(45) NULL,
