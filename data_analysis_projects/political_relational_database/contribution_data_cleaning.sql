@@ -4,7 +4,7 @@
 
 /*Creating table in MYSQL Workbench*/
 
-CREATE TABLE `colorado_project`.`contirbution_data` (
+CREATE TABLE `colorado_project`.`contribution_data` (
   `committee_id` VARCHAR(45) NOT NULL,
   `amount` DECIMAL NULL,
   `date` VARCHAR(45) NOT NULL,
