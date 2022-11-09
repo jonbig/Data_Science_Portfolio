@@ -32,3 +32,13 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n' ;
 
 /*****************************************/
+
+/*Changing name column from 'last, firs't to 'first last' format */
+
+UPDATE candidates
+SET candidate_name = CONCAT( 
+  SUBSTRING(candidate_name, LOCATE(',', candidate_name) + 2, LENGTH(candidate_name) - LOCATE(',', candidate_name) - 1),
+  ' ',
+  SUBSTRING(candidate_name, 1, LOCATE(',', candidate_name) - 1)
+)
+WHERE candidate_name = 'AHREND, JARED';
