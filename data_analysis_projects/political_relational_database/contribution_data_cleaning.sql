@@ -23,7 +23,12 @@ CREATE TABLE `colorado_project`.`contribution_data` (
   `employer` VARCHAR(45) NULL,
   `occupation` VARCHAR(45) NULL,
   `jurisdiction` VARCHAR(45) NULL,
-  PRIMARY KEY (`committee_id`));
 
   
 /*****************************************/
+
+LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\contribution_data.csv" 
+INTO TABLE contribution_data CHARACTER 
+SET latin1 FIELDS TERMINATED 
+BY ',' ENCLOSED BY '"' 
+LINES TERMINATED BY '\r\n' ;
