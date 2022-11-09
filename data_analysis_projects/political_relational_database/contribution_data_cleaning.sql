@@ -27,8 +27,17 @@ CREATE TABLE `colorado_project`.`contribution_data` (
   
 /*****************************************/
 
+/*Loading data into table*/
+
 LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\contribution_data.csv" 
 INTO TABLE contribution_data CHARACTER 
 SET latin1 FIELDS TERMINATED 
 BY ',' ENCLOSED BY '"' 
 LINES TERMINATED BY '\r\n' ;
+
+/*****************************************/  
+  
+/*Removing extra numbers from data column*/
+
+UPDATE contribution_data
+SET date = LEFT(date, LENGTH(date)-5)
