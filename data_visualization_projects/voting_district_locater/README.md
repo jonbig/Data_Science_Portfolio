@@ -22,7 +22,7 @@ We now have two tables, one which contains all of the candidates running for off
 
 ## **3. Process data by cleaning and checking the information.**
 
-The next step is to upload the data into MySQL Workbench to clean and process the data with SQL. You can view the SQL code here.
+The next step is to upload the data into MySQL Workbench to clean and process the data with SQL. [You can view the SQL code here.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/voting_district_locater/candidate_data_cleaning.sql)
 
 ## **4. Analyze data to find patterns, relationships, and trends.**
 
