@@ -1,7 +1,7 @@
 Voter District Locator
 ---
 
-##**1. Ask questions and define the problem.**
+**##1. Ask questions and define the problem.**
 
 Media and news outlets often neglect to cover state and local elections. As a result, most voters don’t know which candidates they are choosing between until they are completing their ballot. In this project we will design an interactive tool (in the form of a Tableau dashboard) that will allow voters in Colorado to quickly and easily find their state legislative districts, the candidates in those districts, and the relevant contact information. After election day, this dashboard can be easily modified to display the winning candidates. This will allow voters to easily see the legislators who represent them, allowing them to reach out to their local officials with questions or concerns.
 
