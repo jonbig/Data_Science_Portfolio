@@ -1,1 +1,33 @@
+Voter District Locator
+
+Ask questions and define the problem.
+
+Media and news outlets often neglect to cover state and local elections. As a result, most voters don’t know which candidates they are choosing between until they are completing their ballot. In this project we will design an interactive tool (in the form of a Tableau dashboard) that will allow voters in Colorado to quickly and easily find their state legislative districts, the candidates in those districts, and the relevant contact information. After election day, this dashboard can be easily modified to display the winning candidates. This will allow voters to easily see the legislators who represent them, allowing them to reach out to their local officials with questions or concerns.
+
+This project includes:
+
+Python with Pandas and Selenium: (for data gathering)
+SQL (for data processing and table joins)
+Tableau (for data visualization and interactivity)
+ArcMap (for manipulating shapefiles)
+
+Prepare data by collecting and storing the information.
+
+All data on state legislative candidates can be found at the Colorado Secretary of State’s website. Unfortunately, there are no available reports that include important attributes like the candidate’s district, political party etc. Copying and pasting this data from hundreds of candidates would be incredibly time consuming, so I built a simple web scraper in python to automate the process. The scraper saves all of the data as a CSV file. The code code for this scraper has been uploaded into this project folder here.
+
+The shapefiles containing polygon data for each legislative district are easily downloaded from public sources. There are separate shapefiles for the Colorado House and Colorado Senate, so I used ArcMap to combine them into a single table.
+
+We now have two tables, one which contains all of the candidates running for office this year and their attributes, and another that contains all of the 100 legislative districts in Colorado and their attributes (polygon info).
+
+Process data by cleaning and checking the information.
+
+The next step is to upload the data into MySQL Workbench to clean and process the data with SQL. You can view the SQL code here.
+
+Analyze data to find patterns, relationships, and trends.
+
+Since this project is focused on visualization, we will skip the ‘analyze’ and ‘act’ steps.
+
+Share data with your audience.
+
+The last step is to connect Tableau to our data. There’s a few ways to accomplish this. I have a live connection set up between Tableau and MySQL Workbench, so my only step is to connect Tableau to the shapefile I created earlier. If I was not working with a shapefile I would use SQL to join the tables together and connect tableau to the resulting table. I want to leave the shapefile in .shp format because Tableau will automatically recognize the format and allow me to take advantage of its powerful geographic visualizations. Once the shapefile is connected to Tableau and the live connection with MySQL is established, we can build the dashboard. A screenshot of the resulting dashboard is below. You can view and interact with the dashboard on my Tableau Public page here.
 
