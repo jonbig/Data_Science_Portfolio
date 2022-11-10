@@ -12,7 +12,7 @@ This project includes:
 - Tableau (for data visualization and interactivity)
 - ArcMap (for manipulating shapefiles)
 
-**2. Prepare data by collecting and storing the information.**
+## **2. Prepare data by collecting and storing the information.**
 
 All data on state legislative candidates can be found at the Colorado Secretary of State’s website. Unfortunately, there are no available reports that include important attributes like the candidate’s district, political party etc. Copying and pasting this data from hundreds of candidates would be incredibly time consuming, so I built a simple web scraper in python to automate the process. The scraper saves all of the data as a CSV file. The code code for this scraper has been uploaded into this project folder here.
 
@@ -20,15 +20,15 @@ The shapefiles containing polygon data for each legislative district are easily 
 
 We now have two tables, one which contains all of the candidates running for office this year and their attributes, and another that contains all of the 100 legislative districts in Colorado and their attributes (polygon info).
 
-**3. Process data by cleaning and checking the information.**
+## **3. Process data by cleaning and checking the information.**
 
 The next step is to upload the data into MySQL Workbench to clean and process the data with SQL. You can view the SQL code here.
 
-**4. Analyze data to find patterns, relationships, and trends.**
+## **4. Analyze data to find patterns, relationships, and trends.**
 
 Since this project is focused on visualization, we will skip the ‘analyze’ and ‘act’ steps.
 
-**5. Share data with your audience.**
+## **5. Share data with your audience.**
 
 The last step is to connect Tableau to our data. There’s a few ways to accomplish this. I have a live connection set up between Tableau and MySQL Workbench, so my only step is to connect Tableau to the shapefile I created earlier. If I was not working with a shapefile I would use SQL to join the tables together and connect tableau to the resulting table. I want to leave the shapefile in .shp format because Tableau will automatically recognize the format and allow me to take advantage of its powerful geographic visualizations. Once the shapefile is connected to Tableau and the live connection with MySQL is established, we can build the dashboard. A screenshot of the resulting dashboard is below. You can view and interact with the dashboard on my Tableau Public page here.
 
