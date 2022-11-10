@@ -7,10 +7,10 @@ Media and news outlets often neglect to cover state and local elections. As a re
 
 This project includes:
 
-Python with Pandas and Selenium: (for data gathering)
-SQL (for data processing and table joins)
-Tableau (for data visualization and interactivity)
-ArcMap (for manipulating shapefiles)
+- Python with Pandas and Selenium: (for data gathering)
+- SQL (for data processing and table joins)
+- Tableau (for data visualization and interactivity)
+- ArcMap (for manipulating shapefiles)
 
 Prepare data by collecting and storing the information.
 
