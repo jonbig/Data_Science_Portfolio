@@ -24,11 +24,11 @@ We now have two tables, one which contains all of the candidates running for off
 
 The next step is to upload the data into MySQL Workbench to clean and process the data with SQL. You can view the SQL code here.
 
-Analyze data to find patterns, relationships, and trends.
+**4. Analyze data to find patterns, relationships, and trends.**
 
 Since this project is focused on visualization, we will skip the ‘analyze’ and ‘act’ steps.
 
-**4. Share data with your audience.**
+**5. Share data with your audience.**
 
 The last step is to connect Tableau to our data. There’s a few ways to accomplish this. I have a live connection set up between Tableau and MySQL Workbench, so my only step is to connect Tableau to the shapefile I created earlier. If I was not working with a shapefile I would use SQL to join the tables together and connect tableau to the resulting table. I want to leave the shapefile in .shp format because Tableau will automatically recognize the format and allow me to take advantage of its powerful geographic visualizations. Once the shapefile is connected to Tableau and the live connection with MySQL is established, we can build the dashboard. A screenshot of the resulting dashboard is below. You can view and interact with the dashboard on my Tableau Public page here.
 
