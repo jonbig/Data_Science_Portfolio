@@ -1,3 +1,5 @@
+#This scraper extracts committee data from the Colorado Secretary of State website that would otherwise have to be manually collected. 
+
 #import relevent stuff
 from cgitb import text
 import selenium
