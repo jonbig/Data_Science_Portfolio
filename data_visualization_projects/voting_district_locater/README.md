@@ -1,4 +1,4 @@
-# Voter District Locator
+# Voting District Locator
 
 
 ## **1. Ask questions and define the problem.**
