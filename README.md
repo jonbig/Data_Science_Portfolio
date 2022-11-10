@@ -21,7 +21,7 @@ What is data analysis?
 
 ## Data Visualization
 
-Using data to tell compelling stories and illustrate metrics
+**Using data to tell compelling stories and illustrate metrics**
 
 ### [Voter District Locator](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/voting_district_locater)
 
