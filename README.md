@@ -5,12 +5,12 @@ This repository is a portfolio of data science projects I’ve completed. Many o
 
 All projects will follow a similar work flow:
 
-1. Ask questions and define the problem.
-2. Prepare data by collecting and storing the information.
-3. Process data by cleaning and checking the information.
-4. Analyze data to find patterns, relationships, and trends.
-5. Share data with your audience.
-6. Act on the data and use the analysis results.
+1. **Ask** questions and define the problem.
+2. **Prepare** data by collecting and storing the information.
+3. **Process** data by cleaning and checking the information.
+4. **Analyze** data to find patterns, relationships, and trends.
+5. **Share** data with your audience.
+6. **Act** on the data and use the analysis results.
 
 Below you will find links to all projects each with a brief project summary. Thanks for visiting my portfolio!
 
