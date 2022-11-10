@@ -32,7 +32,7 @@ LINES TERMINATED BY '\r\n' ;
 
 /*****************************************/
 
-/*Changing name column from 'last, first' to 'first last' format */
+/*Changing name column from 'last, first' to 'first last' format*/
 UPDATE candidates
 SET candidate_name = CONCAT( 
   SUBSTRING(candidate_name, LOCATE(',', candidate_name) + 2, LENGTH(candidate_name) - LOCATE(',', candidate_name) - 1),
@@ -142,6 +142,17 @@ CREATE TABLE `colorado_project`.`contribution_data` (
 /*Reformatting dates*/  
 UPDATE contributions_data
 SET date = STR_TO_DATE(date, '%c/%e/%Y %r');
+ 
+/*****************************************/
+  
+/*Editing categories*/  
+UPDATE contributions
+SET contributor_type = 'Corporation'
+WHERE contributor_type = 'LLC'
+  
+UPDATE contributions
+SET contributor_type = 'Corporation'
+WHERE contributor_type = 'Business'
 
 /*****************************************/
 
