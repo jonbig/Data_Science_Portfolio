@@ -14,6 +14,8 @@ All projects will follow a similar work flow:
 
 Below you will find links to all projects each with a brief project summary. Thanks for visiting my portfolio!
 
+Info about larger projects such as DMS.
+
 
 ## Data Analysis 
 
