@@ -4,7 +4,6 @@
 
 /*Candidate Data*/
 /*Creating table in MYSQL Workbench*/
-
 CREATE TABLE `colorado_project`.`candidate_data` (
   `candidate_name` VARCHAR(45) NULL,
   `candidate_email` VARCHAR(45) NULL,
@@ -25,7 +24,6 @@ CREATE TABLE `colorado_project`.`candidate_data` (
 /*****************************************/
 
 /*Loading data into candidate SQL table*/
-
 LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\candidate_data_test.csv" 
 INTO TABLE candidate_data CHARACTER SET latin1 
 FIELDS TERMINATED BY ',' 
@@ -35,7 +33,6 @@ LINES TERMINATED BY '\r\n' ;
 /*****************************************/
 
 /*Changing name column from 'last, first' to 'first last' format */
-
 UPDATE candidates
 SET candidate_name = CONCAT( 
   SUBSTRING(candidate_name, LOCATE(',', candidate_name) + 2, LENGTH(candidate_name) - LOCATE(',', candidate_name) - 1),
@@ -46,10 +43,42 @@ SET candidate_name = CONCAT(
 /*****************************************/
 
 /*Changing text in political party column */
-
 UPDATE candidate_data
 SET political_party = 'Democrat'
 WHERE political_party = 'Democratic'
+
+/*****************************************/
+
+/*Removing any trailing spaces*/
+UPDATE candidate_data
+SET candidate_name = RTRIM(candidate_name)
+
+/*****************************************/
+
+/*Cleaning candidate names*/
+UPDATE ind_exp_join
+SET candidate = 'TONY EXUM'
+WHERE candidate = 'THOMAS EXUM'
+
+UPDATE ind_exp_join
+SET candidate = 'STEPHEN VARELA'
+WHERE candidate = 'STEPHEN VARELA,'
+
+UPDATE ind_exp_join
+SET candidate = 'SAID SHARBINI,'
+WHERE candidate = 'SAID SHARBINI'
+
+UPDATE ind_exp_join
+SET candidate = 'ROSE PUGLIESE'
+WHERE candidate = 'ROSE PUGLIESE,'
+
+UPDATE ind_exp_join
+SET candidate = 'NATHAN BAXTER'
+WHERE candidate = 'NATHAN BAXTER,'
+
+UPDATE ind_exp_join
+SET candidate = 'MATT SOLOMON'
+WHERE candidate = 'MATT SOLOMON,'
 
 /*****************************************/
 
@@ -70,9 +99,14 @@ CREATE TABLE `colorado_project`.`committee_data` (
   PRIMARY KEY (`committee_id`));
   
 /*****************************************/
+  
+/*Removing any trailing spaces*/
+UPDATE committee_data
+SET candidate_name = RTRIM(candidate_name)
+  
+/*****************************************/
 
 /*Loading data into committee SQL table*/
-
 LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\committee_data_test.csv" 
 INTO TABLE committee_data CHARACTER 
 SET latin1 
@@ -83,7 +117,6 @@ LINES TERMINATED BY '\r\n' ;
 
 /*Contributions Data*/
 /*Creating table in MYSQL Workbench*/
-
 CREATE TABLE `colorado_project`.`contribution_data` (
   `committee_id` VARCHAR(45) NOT NULL,
   `amount` DECIMAL NULL,
@@ -103,12 +136,16 @@ CREATE TABLE `colorado_project`.`contribution_data` (
   `employer` VARCHAR(45) NULL,
   `occupation` VARCHAR(45) NULL,
   `jurisdiction` VARCHAR(45) NULL,
-
   
+/*****************************************/
+  
+/*Reformatting dates*/  
+UPDATE contributions_data
+SET date = STR_TO_DATE(date, '%c/%e/%Y %r');
+
 /*****************************************/
 
 /*Loading data into table*/
-
 LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\contribution_data.csv" 
 INTO TABLE contribution_data CHARACTER 
 SET latin1 FIELDS TERMINATED 
@@ -118,9 +155,10 @@ LINES TERMINATED BY '\r\n' ;
 /*****************************************/  
   
 /*Removing extra numbers from data column*/
-
 UPDATE contribution_data
 SET date = LEFT(date, LENGTH(date)-5)
+  
+/*****************************************/
   
 /*Expenditure Data*/
 /*Creating table in MYSQL Workbench*/
@@ -141,11 +179,22 @@ SET date = LEFT(date, LENGTH(date)-5)
   `candidate_name` VARCHAR(45) NULL,
   `jurisdiction` VARCHAR(45) NULL)
   
-  
+/*****************************************/
+
 /*Removing extra numbers from data column*/  
-  
 UPDATE expenditure_data
 SET date = LEFT(date, LENGTH(date)-5)
+  
+/*****************************************/
+  
+/*Reformatting dates*/  
+UPDATE expenditure_data
+SET date = STR_TO_DATE(date, '%c/%e/%Y %r');
+  
+/*****************************************/
+  
+
+
   
 
 
