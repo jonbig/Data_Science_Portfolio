@@ -1,7 +1,8 @@
-/********************************************************************/
-/*SQL Data Cleaning/Preprocessing Candidate Data Scraped from tracer*/
-/********************************************************************/
+/*******************************************************************************/
+/*Cleaning & Processing Candidate Data Scraped from Colorado Secretary of State*/
+/*******************************************************************************/
 
+/*Candidate Data*/
 /*Creating table in MYSQL Workbench*/
 
 CREATE TABLE `colorado_project`.`candidate_data` (
@@ -23,7 +24,7 @@ CREATE TABLE `colorado_project`.`candidate_data` (
   
 /*****************************************/
 
-/*Loading data into SQL table*/
+/*Loading data into candidate SQL table*/
 
 LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\candidate_data_test.csv" 
 INTO TABLE candidate_data CHARACTER SET latin1 
@@ -41,7 +42,6 @@ SET candidate_name = CONCAT(
   ' ',
   SUBSTRING(candidate_name, 1, LOCATE(',', candidate_name) - 1)
 )
-WHERE candidate_name = 'AHREND, JARED';
 
 /*****************************************/
 
@@ -52,5 +52,106 @@ SET political_party = 'Democrat'
 WHERE political_party = 'Democratic'
 
 /*****************************************/
+
+/*Committee Data*/
+/*Creating table in MYSQL Workbench*/
+
+CREATE TABLE `colorado_project`.`committee_data` (
+  `committee_name` VARCHAR(45) NULL,
+  `email` VARCHAR(45) NULL,
+  `committee_id` VARCHAR(45) NOT NULL,
+  `committee_type` VARCHAR(45) NULL,
+  `committee_purpose` VARCHAR(45) NULL,
+  `phone` VARCHAR(45) NULL,
+  `agent` VARCHAR(45) NULL,
+  `expenditures` DECIMAL NULL,
+  `contributions` DECIMAL NULL,
+  `ending_balance` DECIMAL NULL,
+  PRIMARY KEY (`committee_id`));
+  
+/*****************************************/
+
+/*Loading data into committee SQL table*/
+
+LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\committee_data_test.csv" 
+INTO TABLE committee_data CHARACTER 
+SET latin1 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\r\n' ;
+
+
+/*Contributions Data*/
+/*Creating table in MYSQL Workbench*/
+
+CREATE TABLE `colorado_project`.`contribution_data` (
+  `committee_id` VARCHAR(45) NOT NULL,
+  `amount` DECIMAL NULL,
+  `date` VARCHAR(45) NOT NULL,
+  `last_name` VARCHAR(45) NULL,
+  `first_name` VARCHAR(45) NULL,
+  `address` VARCHAR(45) NULL,
+  `city` VARCHAR(45) NULL,
+  `state` DECIMAL NULL,
+  `zipcode` VARCHAR(45) NULL,
+  `contribution_type` VARCHAR(45) NULL,
+  `contributor_type` VARCHAR(45) NULL,
+  `electioneering` VARCHAR(45) NULL,
+  `committee_type` VARCHAR(45) NULL,
+  `committee_name` VARCHAR(45) NULL,
+  `candidate_name` VARCHAR(45) NULL,
+  `employer` VARCHAR(45) NULL,
+  `occupation` VARCHAR(45) NULL,
+  `jurisdiction` VARCHAR(45) NULL,
+
+  
+/*****************************************/
+
+/*Loading data into table*/
+
+LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\contribution_data.csv" 
+INTO TABLE contribution_data CHARACTER 
+SET latin1 FIELDS TERMINATED 
+BY ',' ENCLOSED BY '"' 
+LINES TERMINATED BY '\r\n' ;
+
+/*****************************************/  
+  
+/*Removing extra numbers from data column*/
+
+UPDATE contribution_data
+SET date = LEFT(date, LENGTH(date)-5)
+  
+/*Expenditure Data*/
+/*Creating table in MYSQL Workbench*/
+
+  CREATE TABLE `colorado_project`.`expenditure_data` (
+  `committee_id` VARCHAR(45) NOT NULL,
+  `amount` DECIMAL NULL,
+  `date` VARCHAR(45) NULL,
+  `recipient_name` VARCHAR(45) NULL,
+  `address` VARCHAR(45) NULL,
+  `city` VARCHAR(45) NULL,
+  `state` VARCHAR(45) NULL,
+  `zipcode` VARCHAR(45) NULL,
+  `expenditure_type` VARCHAR(45) NULL,
+  `electioneering` VARCHAR(45) NULL,
+  `committee_type` VARCHAR(45) NULL,
+  `committee_name` VARCHAR(45) NULL,
+  `candidate_name` VARCHAR(45) NULL,
+  `jurisdiction` VARCHAR(45) NULL)
+  
+  
+/*Removing extra numbers from data column*/  
+  
+UPDATE expenditure_data
+SET date = LEFT(date, LENGTH(date)-5)
+  
+
+
+
+
+
+
 
 
