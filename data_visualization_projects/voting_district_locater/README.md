@@ -38,6 +38,9 @@ Contributions Visualization
 
 This horizontal bar chart will display the candidate's name along with the total dollar amount of contributions they've received. I'll use SQL to join the data from the contributions table with the candidates table on the committee ID field. We can then group the resulting table by candidate name and the sum of the contribution amounts. 
 
+Fundraising Profile Visualization
+
+This pie chart will show the proportional contribution types for each candidate's total fundraising amounts. This will give the voters an idea of how a candidate is funding their campaign. To create the chart we will need
 
 You can view the SQL code for the joins here.
 
