@@ -32,7 +32,7 @@ The next step is to upload the 3 data datasets into MySQL Workbench to clean and
 
 ## **4. Analyze data to find patterns, relationships, and trends.**
 
-Now that the data is cleaned, the next step is to build the tables needed for each of the 3 visualizations. This isn't strictly necessary as Tableau supports table merges natively. However, I've found that using SQL joins and connecting Tableau to the resulting tables yeilds more responsive visualizations. 
+Now that the data is cleaned, the next step is to build the tables needed for each of the 3 visualizations. This isn't strictly necessary as Tableau supports table merges natively. However, I've found that using SQL joins and connecting Tableau to the resulting tables yeilds more responsive visualizations. I'll need to create 3 tables for the 3 visualizations in this project. You can view the SQL code for the joins here.
 
 
 
