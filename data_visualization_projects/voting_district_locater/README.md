@@ -36,7 +36,7 @@ Now that the data is cleaned, the next step is to build the tables needed for ea
 
 Contributions Visualization
 
-This horizontal bar chart will display the candidate's name along with the total dollar amount of contributions they've received. I'll use SQL to join the cointributions table with the candidates table on the committee ID field. This will add the candidate name and district name attributes from the candidate table to the contributions table. We can then group the resulting table by candidate name and the sum of the contribution amounts. 
+This horizontal bar chart will display the candidate's name along with the total dollar amount of contributions they've received. I'll use SQL to join the data from the contributions table with the candidates table on the committee ID field. We can then group the resulting table by candidate name and the sum of the contribution amounts. 
 
 
 You can view the SQL code for the joins here.
