@@ -142,6 +142,15 @@ SET date = LEFT(date, LENGTH(date)-5)
 /*****************************************/
   
 /*Table Joins for Data Visualizations*/
+
+/*Total Contributions by Candidate Viz*/
+
+SELECT candidates.candidate_name, candidates.district, sum(contributions.contribution_amount) AS total_contributions
+FROM candidates
+LEFT JOIN contributions
+ON candidates.committee_id = contributions.recipient_committee_id
+GROUP BY candidates.candidate_name;
+
   
 
   
