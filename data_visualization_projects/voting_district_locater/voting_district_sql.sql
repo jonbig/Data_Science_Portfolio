@@ -150,6 +150,20 @@ FROM candidate_data
 LEFT JOIN contribution_data
 ON candidate_data.committee_id = contribution_data.recipient_committee_id
 GROUP BY candidate_data.candidate_name;
+  
+/*****************************************/
+  
+  
+/*Fundraising Profile Pie Chart*/  
+  
+SELECT recipient_name, SUM(contribution_amount), contributor_type
+FROM colorado_project.contributions
+GROUP BY recipient_name, contributor_type
+ORDER BY recipient_name
+  
+  
+/*****************************************/
+
 
   
 
