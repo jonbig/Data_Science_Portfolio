@@ -145,11 +145,11 @@ SET date = LEFT(date, LENGTH(date)-5)
 
 /*Total Contributions by Candidate Viz*/
 
-SELECT candidates.candidate_name, candidates.district, sum(contributions.contribution_amount) AS total_contributions
-FROM candidates
-LEFT JOIN contributions
-ON candidates.committee_id = contributions.recipient_committee_id
-GROUP BY candidates.candidate_name;
+SELECT candidate_data.candidate_name, candidate_data.district, sum(contribution_data.amount) AS total_contributions
+FROM candidate_data
+LEFT JOIN contribution_data
+ON candidate_data.committee_id = contribution_data.recipient_committee_id
+GROUP BY candidate_data.candidate_name;
 
   
 
