@@ -42,6 +42,10 @@ Now that the data is cleaned, the next step is to build the tables needed for ea
 
 Since this is a shapefile, we will connect it to Tableau directly. We will define a one to many relationship with the other tables based on the district field. This is similar to a SQL join on the district field, but using tableau's relationship function allows us to keep the shapefile intact. 
 
+**Candidate Info Text Table**
+
+This text table is built from the candidates table with a simple select query in SQL.
+
 **Contributions Visualization**
 
 This horizontal bar chart will display the candidate's name along with the total dollar amount of contributions they've received. I'll use SQL to join the data from the contributions table with the candidates table on the committee ID field. We can then group the resulting table by candidate name and the sum of the contribution amounts. 
