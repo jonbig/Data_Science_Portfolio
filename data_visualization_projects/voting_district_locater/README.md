@@ -53,7 +53,10 @@ This pie chart will show the proportional contribution types for each candidate'
 
 ## **5. Share data with your audience.**
 
-![proj_pic](https://user-images.githubusercontent.com/102785707/201450460-84b96438-d283-43bf-9824-e9501b604894.PNG)
+![Capture](https://user-images.githubusercontent.com/102785707/201450534-eefff84d-a1ec-410d-ac5b-a39643d9fcd4.PNG)
+
+
+
 
 
 
