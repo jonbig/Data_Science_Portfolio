@@ -1,6 +1,6 @@
 # Voting District Locator
 
-_This project is one part of a much larger project designed to allow Colorado voters to easily research the political candidates and committees active in their local area. [Click here to view and interact with the full project.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker/DistrictDash)_
+_The visualizations made in this project are part of a much larger project designed to allow Colorado voters to easily research the political candidates and committees active in their local area. [Click here to view and interact with the full project.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker/DistrictDash)_
 
 
 ## **1. Ask questions and define the problem.**
@@ -53,6 +53,8 @@ This pie chart will show the proportional contribution types for each candidate'
 
 ## **5. Share data with your audience.**
 
-This project is one part of a much larger project designed to allow Colorado voters to easily research the political candidates and and committees active in their local area. Click here to view and interact with the full project.
-I b I've uploaded an image of finished visualizations below. Click here to see 
+![proj_pic](https://user-images.githubusercontent.com/102785707/201450460-84b96438-d283-43bf-9824-e9501b604894.PNG)
+
+
+
 
