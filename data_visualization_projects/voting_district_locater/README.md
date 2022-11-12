@@ -32,20 +32,21 @@ The next step is to upload the 3 data datasets into MySQL Workbench to clean and
 
 ## **4. Analyze data to find patterns, relationships, and trends.**
 
-Now that the data is cleaned, the next step is to build the tables needed for each of the 3 visualizations. This isn't strictly necessary as Tableau supports table merges natively. However, I've found that using SQL joins and connecting Tableau to the resulting tables yeilds more responsive visualizations. I'll need to create 3 tables for the 3 visualizations in this project. 
+Now that the data is cleaned, the next step is to build the tables needed for each of the 3 visualizations. This isn't strictly necessary as Tableau supports table merges natively. However, I've found that using SQL joins and connecting Tableau to the resulting tables yeilds more responsive visualizations. I'll need to create 2 tables for the 3 visualizations in this project. The district map visualization will act as a filter for the contributions and fundraising profile visualizations. When a user clicks a district, Tableau will automatcially filter the contribution and fundraising visualizations by the district the user selected. 
 
-Contributions Visualization
+**District Map**
+
+The SQL code for these joins can be found here.
+
+Since this is a shapefile we will connect it to Tableau directly. We will define a one to many relationship with the other tables based on the district field. This is similar to a SQL join on the district field, but using tableau's relationship function allows us to keep the shapefile intact. 
+
+**Contributions Visualization**
 
 This horizontal bar chart will display the candidate's name along with the total dollar amount of contributions they've received. I'll use SQL to join the data from the contributions table with the candidates table on the committee ID field. We can then group the resulting table by candidate name and the sum of the contribution amounts. 
 
-Fundraising Profile Visualization
+**Fundraising Profile Visualization**
 
-This pie chart will show the proportional contribution types for each candidate's total fundraising amounts. This will give the voters an idea of how a candidate is funding their campaign. To create the chart we will need
-
-You can view the SQL code for the joins here.
-
-
-
+This pie chart will show the proportional contribution types for each candidate's fundraising. This will give the voters an idea of how a candidate is funding their campaign. To create the chart we will use aggregate functions in SQL to group the contributions by candidate and contributor type and join the resulting table with the candidates table in order to populate the respective legislative districts.
 
 
 ## **5. Share data with your audience.**
