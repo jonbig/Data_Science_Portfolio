@@ -38,7 +38,7 @@ Now that the data is cleaned, the next step is to build the tables needed for ea
 
 The SQL code for these joins can be found here.
 
-Since this is a shapefile we will connect it to Tableau directly. We will define a one to many relationship with the other tables based on the district field. This is similar to a SQL join on the district field, but using tableau's relationship function allows us to keep the shapefile intact. 
+Since this is a shapefile, we will connect it to Tableau directly. We will define a one to many relationship with the other tables based on the district field. This is similar to a SQL join on the district field, but using tableau's relationship function allows us to keep the shapefile intact. 
 
 **Contributions Visualization**
 
