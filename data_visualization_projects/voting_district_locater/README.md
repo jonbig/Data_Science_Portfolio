@@ -30,7 +30,7 @@ The contribution data can be downloaded in bulk in csv form.
 
 ## **3. Process data by cleaning and checking the information.**
 
-The next step is to upload the 3 data datasets into MySQL Workbench to clean and process the data with SQL. [Click here to view the SQL code used to clean the data](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/voting_district_locater/candidate_data_cleaning.sql)
+The next step is to upload the 3 data datasets into MySQL Workbench to clean and process the data with SQL. [Click here to view the SQL code used to clean the data](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/voting_district_locater/voting_district_sql.sql)
 
 ## **4. Analyze data to find patterns, relationships, and trends.**
 
