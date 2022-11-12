@@ -36,7 +36,7 @@ Now that the data is cleaned, the next step is to build the tables needed for ea
 
 **District Map**
 
-The SQL code for these joins can be found here.
+[The SQL code for these joins can be found here](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/voting_district_locater/voting_district_sql.sql)
 
 Since this is a shapefile, we will connect it to Tableau directly. We will define a one to many relationship with the other tables based on the district field. This is similar to a SQL join on the district field, but using tableau's relationship function allows us to keep the shapefile intact. 
 
