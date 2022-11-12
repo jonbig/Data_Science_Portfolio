@@ -1,5 +1,7 @@
 # Voting District Locator
 
+This project is one part of a much larger project designed to allow Colorado voters to easily research the political candidates and and committees active in their local area. [Click here to view and interact with the full project](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker/DistrictDash)
+
 
 ## **1. Ask questions and define the problem.**
 
@@ -34,7 +36,7 @@ The next step is to upload the 3 data datasets into MySQL Workbench to clean and
 
 Now that the data is cleaned, the next step is to build the tables needed for each of the 3 visualizations. This isn't strictly necessary as Tableau supports table merges natively. However, I've found that using SQL joins and connecting Tableau to the resulting tables yeilds more responsive visualizations. I'll need to create 2 tables for the 3 visualizations in this project. The district map visualization will act as a filter for the contributions and fundraising profile visualizations. When a user clicks a district, Tableau will automatcially filter the contribution and fundraising visualizations by whichever district the user selected. 
 
-[The SQL code for these joins can be found here](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/voting_district_locater/voting_district_sql.sql)
+[The SQL code for these joins can be found here.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/voting_district_locater/voting_district_sql.sql)
 
 **District Map**
 
@@ -51,5 +53,6 @@ This pie chart will show the proportional contribution types for each candidate'
 
 ## **5. Share data with your audience.**
 
-The last step is to connect Tableau to our data. There’s a few ways to accomplish this. I have a live connection set up between Tableau and MySQL Workbench, so my only step is to connect Tableau to the shapefile I created earlier. If I was not working with a shapefile I would use SQL to join the tables together and connect tableau to the resulting table. I want to leave the shapefile in .shp format because Tableau will automatically recognize the format and allow me to take advantage of its powerful geographic visualizations. Once the shapefile is connected to Tableau and the live connection with MySQL is established, we can build the dashboard. A screenshot of the resulting dashboard is below. You can view and interact with the dashboard on my Tableau Public page here.
+This project is one part of a much larger project designed to allow Colorado voters to easily research the political candidates and and committees active in their local area. Click here to view and interact with the full project.
+I b I've uploaded an image of finished visualizations below. Click here to see 
 
