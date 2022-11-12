@@ -32,7 +32,7 @@ The next step is to upload the 3 data datasets into MySQL Workbench to clean and
 
 ## **4. Analyze data to find patterns, relationships, and trends.**
 
-Now that the data is cleaned, the next step is to build the tables needed for each of the 3 visualizations. This isn't strictly necessary as Tableau supports table merges natively. However, I've found that using SQL joins and connecting Tableau to the resulting tables yeilds more responsive visualizations. I'll need to create 2 tables for the 3 visualizations in this project. The district map visualization will act as a filter for the contributions and fundraising profile visualizations. When a user clicks a district, Tableau will automatcially filter the contribution and fundraising visualizations by the district the user selected. 
+Now that the data is cleaned, the next step is to build the tables needed for each of the 3 visualizations. This isn't strictly necessary as Tableau supports table merges natively. However, I've found that using SQL joins and connecting Tableau to the resulting tables yeilds more responsive visualizations. I'll need to create 2 tables for the 3 visualizations in this project. The district map visualization will act as a filter for the contributions and fundraising profile visualizations. When a user clicks a district, Tableau will automatcially filter the contribution and fundraising visualizations by whichever district the user selected. 
 
 **District Map**
 
