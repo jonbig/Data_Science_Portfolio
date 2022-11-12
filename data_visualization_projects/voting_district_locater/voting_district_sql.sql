@@ -142,6 +142,14 @@ SET date = LEFT(date, LENGTH(date)-5)
 /*****************************************/
   
 /*Table Joins for Data Visualizations*/
+  
+/*Candidate Info Text Table*/
+
+SELECT candidate_name, district, candidate_email, political_party, website
+FROM .candidate_data;
+
+/*****************************************/
+
 
 /*Total Contributions by Candidate Viz*/
 
