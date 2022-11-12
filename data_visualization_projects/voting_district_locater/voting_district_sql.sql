@@ -156,10 +156,10 @@ GROUP BY candidate_data.candidate_name;
   
 /*Fundraising Profile Pie Chart*/  
   
-SELECT alias.recipient_name, SUM(alias.contribution_amount), alias.contributor_type, candidates.district
-FROM contributions AS alias
-LEFT JOIN candidates 
-ON alias.recipient_committee_id = candidates.committee_id
+SELECT alias.recipient_name, SUM(alias.contribution_amount), alias.contributor_type, candidate_data.district
+FROM contribution_data AS alias
+LEFT JOIN candidate_data 
+ON alias.recipient_committee_id = candidate_data.committee_id
 GROUP BY alias.recipient_name, alias.contributor_type
 HAVING district IS NOT NULL
 ORDER BY alias.recipient_name
