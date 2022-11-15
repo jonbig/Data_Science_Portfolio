@@ -19,17 +19,16 @@ Info about larger projects such as DMS.
 
 ## Data Analysis 
 
-**Using data to tell compelling stories and illustrate metrics**
+### [Movie Data Correlations](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/movie_data_correlation_testing)
 
-### [Project Title](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/voting_district_locater)
+In this project we will examine IMDB data on thousandsa of movies to determine if any relatinships exists between a movie's gross earnings and other attributes such as its budget, genre, rating etc.
 
-Media and news outlets often neglect to cover state and local elections. As a result, most voters don’t know which candidates they are choosing between until they are completing their ballot. In this project we will design an interactive tool (in the form of a Tableau dashboard) that will allow voters in Colorado to quickly and easily find their state legislative districts, the candidates in those districts, and the relevant contact information. After election day, this dashboard can be easily modified to display the winning candidates. This will allow voters to easily see the legislators who represent them, allowing them to reach out to their local officials with questions or concerns.
+This project features:
 
-This project includes:
-
-- Python: (for data gathering)
-- SQL (for data processing and table joins)
-- Tableau (for data visualization and interactivity)
+- Python
+- Pandas, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
+- Correlation matrices, scatterplots, heatmaps
+- Linear regression
 
 ## Data Visualization
 
