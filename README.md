@@ -17,7 +17,7 @@ Below you will find links to all projects each with a brief project summary. Tha
 Info about larger projects such as DMS.
 
 
-## Data Analysis 
+# Data Analysis 
 
 ### [Movie Data Correlations](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/movie_data_correlation_testing)
 
@@ -32,7 +32,7 @@ In this project we will examine IMDB data on thousands of movies to determine if
 - Correlation matrices, scatterplots, heatmaps
 - Linear regression
 
-## Data Visualization
+# Data Visualization
 
 ### [Voter District Locator](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/voting_district_locater)
 
@@ -48,7 +48,7 @@ Media and news outlets often neglect to cover state and local elections. As a re
 
 
 
-## Machine Learning
+# Machine Learning
 
 
 ### [Image Classification Neural Network (Tensorflow)](https://github.com/jonbig/Data_Science_Portfolio/blob/main/machine_learning_projects/image_classification_neural_network/image_classification_neural_network.ipynb)
