@@ -21,9 +21,11 @@ Info about larger projects such as DMS.
 
 ### [Movie Data Correlations](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/movie_data_correlation_testing)
 
+### **Objective**
+
 In this project we will examine IMDB data on thousands of movies to determine if any relationships exist between a movie's gross earnings and other attributes such as its budget, genre, rating etc.
 
-This project features:
+### **Project Features**
 
 - Python
 - Pandas, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
@@ -34,9 +36,11 @@ This project features:
 
 ### [Voter District Locator](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/voting_district_locater)
 
+### **Objective**
+
 Media and news outlets often neglect to cover state and local elections. As a result, most voters don’t know which candidates they are choosing between until they are completing their ballot. In this project we will design an interactive tool (in the form of a Tableau dashboard) that will allow voters in Colorado to quickly and easily find their state legislative districts, the candidates in those districts, and the relevant contact information. After election day, this dashboard can be easily modified to display the winning candidates. This will allow voters to easily see the legislators who represent them, allowing them to reach out to their local officials with questions or concerns.
 
-This project includes:
+### **Project Features**
 
 - Python: (for data gathering)
 - SQL (for data processing and table joins)
