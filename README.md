@@ -47,7 +47,7 @@ This project includes:
 ## Machine Learning
 
 
-### [**Image Classification Neural Network (Tensorflow)](https://github.com/jonbig/Data_Science_Portfolio/blob/main/machine_learning_projects/image_classification_neural_network/image_classification_neural_network.ipynb)
+### [Image Classification Neural Network (Tensorflow)](https://github.com/jonbig/Data_Science_Portfolio/blob/main/machine_learning_projects/image_classification_neural_network/image_classification_neural_network.ipynb)
 
 ### **Objective**
 
