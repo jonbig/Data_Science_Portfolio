@@ -34,7 +34,7 @@ In this project we will examine IMDB data on thousands of movies to determine if
 
 # Data Visualization
 
-### [Local Candidate Reserach Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/voting_district_locater)
+### [Local Candidate Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/voting_district_locater)
 
 ### **Objective**
 
