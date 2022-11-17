@@ -1,11 +1,29 @@
-# Voting District Locator
+# Local Candidate Dashboard
 
 _The visualizations made in this project are part of a much larger project designed to allow Colorado voters to easily research the political candidates and committees active in their local area. [Click here to view and interact with the full project.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker/DistrictDash)_
 
 
 ## **1. Ask questions and define the problem.**
 
-Media and news outlets often neglect to cover state and local elections. As a result, most voters don’t know which candidates they are choosing between until they are completing their ballot. In this project we will design an interactive tool (in the form of a Tableau dashboard) that will allow voters in Colorado to quickly and easily find their state legislative districts, the candidates in those districts, and their relevant contact information. The dashboard will also display fundraising data for each candidate, including the total amount of contributions recieved and what kind of contributions they have received. After election day, we can remove the all but the winning candidates.  This will allow voters to easily see the legislators who represent them, allowing them to reach out via phone or email and build a relationship with their elected officials.
+Media and news outlets often neglect to cover state and local elections. As a result, most voters don’t know which candidates they are choosing between until they are completing their ballot. In this project we will build an interactive dashboard that will allow voters in Colorado to quickly and easily find their state legislative districts. The dashboard will also display candidate fundraising information and information on any super PACs that are actively spending money in the district.
+
+The dashboard is made up of 6 visualizations:
+
+- District Locator- Allows voters to quickly identify their state house and senate districts and filters the remaining visualizations to display data relevant to the selected district.
+
+- Candidate Info Table- Displays a table of information associated with the candidates in the selected legislative district. 
+
+- Total Donations- A simple bar chart comparing the fundraising totals of candidates in the selected legislative district. 
+
+- Fundraising profile- Pie charts drilling down into each candidate’s fundraising total by contribution type, giving voters an idea of the candidate’s overall fundraising strategy. The wedges in these pie charts act as filters for the Donor Details visualization
+
+- Super PAC Activity- A stacked bubble chart of the super PACs spending money in the selected legislative district. This visualization acts as a filter for the Political Committee Research Dashboard. For example, a voter notices that Super PAC XYZ has spent $100,000 supporting candidate John Smith. Clicking on the bubble associated with Super PAC XYZ will automatically filter the Political Committee Research Dashboard to display information associated with Super PAC XYZ.
+
+- Donor Details- A table that displays the contributor name, and contribution amount. This table is filtered by clicking a wedge in the fundraising profile pie chart. For example, a voter sees that candidate John Smith has received 33% of their money from PACs, clicking on that wedge will filter this table to display the names of those pacs and their respective contribution amounts to John Smith. Voters can also click on any of these committees to filter the Political Committee Research Dashboard to display information associated with the selected committee.
+
+
+
+
 
 This project includes:
 
