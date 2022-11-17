@@ -21,10 +21,6 @@ The dashboard is made up of 6 visualizations:
 
 - Donor Details- A table that displays the contributor name, and contribution amount. This table is filtered by clicking a wedge in the fundraising profile pie chart. For example, a voter sees that candidate John Smith has received 33% of their money from PACs, clicking on that wedge will filter this table to display the names of those pacs and their respective contribution amounts to John Smith. Voters can also click on any of these committees to filter the Political Committee Research Dashboard to display information associated with the selected committee.
 
-
-
-
-
 This project includes:
 
 - Python with Pandas and Selenium: (for data gathering)
@@ -34,21 +30,25 @@ This project includes:
 
 ## **2. Prepare data by collecting and storing the information.**
 
-**Candidate Data**
+**Candidate and Committee Data**
 
-All data on state legislative candidates can be found at the Colorado Secretary of State’s website. Unfortunately, there are no available reports that include important attributes like the candidate’s district, political party etc. Copying and pasting this data for hundreds of candidates would be incredibly time consuming, so I built a simple web scraper in python to automate the process. The scraper saves all of the data as a CSV file. [The python code for this scraper has been uploaded to this project folder.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/voting_district_locater/candidate_data_scraper.py)
+All data on state legislative candidates can be found at the Colorado Secretary of State’s website. Unfortunately, there are no available reports that include important attributes like the candidate’s district, political party etc. Copying and pasting this data for hundreds of candidates would be incredibly time consuming, so I built a simple web scraper in python to automate the process. The scraper saves all of the data as a CSV file. 
+
+[The python code for the candidate data scraper has been uploaded to this project folder.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/voting_district_locater/candidate_data_scraper.py)
+
+[The python code for the committee data scraper has been uploaded to this project folder.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/political_committee_research_dashboard/committee_scraper.py)
 
 **District Geographical Data**
 
 The shapefiles containing polygon data for each legislative district are easily downloaded from public sources. There are separate shapefiles for the Colorado House and Colorado Senate, so I used ArcMap to combine them into a single table.
 
-**Contribution Data**
+**Contribution and Expenditure Data**
 
-The contribution data can be downloaded in bulk in csv form. 
+The contribution and expenditure data can be downloaded in bulk in csv form. 
 
 ## **3. Process data by cleaning and checking the information.**
 
-The next step is to upload the 3 data datasets into MySQL Workbench to clean and process the data with SQL. [Click here to view the SQL code used to clean the data](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/voting_district_locater/voting_district_sql.sql)
+The next step is to upload the 4 data datasets into MySQL Workbench to clean and process the data with SQL. [Click here to view the SQL code used to clean the data](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/voting_district_locater/voting_district_sql.sql)
 
 ## **4. Analyze data to find patterns, relationships, and trends.**
 
