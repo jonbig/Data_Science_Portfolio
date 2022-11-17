@@ -5,7 +5,7 @@ _The visualizations made in this project are part of a much larger project desig
 
 ## **1. Ask questions and define the problem.**
 
-Media and news outlets often neglect to cover state and local elections. As a result, most voters don’t know which candidates they are choosing between until they are completing their ballot. In this project we will build an interactive dashboard that will allow voters in Colorado to quickly and easily find their state legislative districts. The dashboard will also display candidate fundraising information and information on any super PACs that are actively spending money in the district.
+Media and news outlets often neglect to cover state and local elections. As a result, most voters don’t know which candidates they are choosing between until they are completing their ballot. In this project we will build an interactive dashboard that will allow voters in Colorado to quickly and easily find their state legislative districts along with the candidates running for office in the district. The dashboard will also display candidate fundraising information and information on any super PACs that are actively spending money in the district.
 
 The dashboard is made up of 6 visualizations:
 
