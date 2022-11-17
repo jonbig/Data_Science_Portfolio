@@ -1,5 +1,5 @@
 /*****************************************************************************************/
-/*SQL code for voter district visulaizations*/
+/*SQL code for voter district visualizations*/
 /*****************************************************************************************/
   
 /*Candidate Info Text Table Viz*/
