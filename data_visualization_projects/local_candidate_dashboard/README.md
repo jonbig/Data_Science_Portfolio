@@ -74,7 +74,7 @@ This text table is built from the candidates table with a simple select query in
 
 This horizontal bar chart will display the candidate's name along with the total dollar amount of contributions they've received. I'll use SQL to join the data from the contributions table with the candidates table on the committee ID field. We can then group the resulting table by candidate name and the sum of the contribution amounts. 
 
-![test1](https://user-images.githubusercontent.com/102785707/202817963-1e3ce415-5566-4c1c-b87f-8a2e93d09740.PNG)
+![5](https://user-images.githubusercontent.com/102785707/202818513-c68fa4c3-d754-43c2-868c-adc1df934139.PNG)
 
 
 **Fundraising Profile**
