@@ -44,3 +44,15 @@ LEFT JOIN committee_data
 ON alias.committee_name = committee_data.committee_name
 GROUP BY committee_name
 HAVING expenditure_type = 'Independent Expenditures'
+
+/*****************************************/
+
+/*Super PAC Activity*/  
+
+SELECT alias.recipient_name, SUM(alias.contribution_amount), alias.committee_name, alias.contributor_type, candidate_data.district
+FROM contribution_data AS alias
+LEFT JOIN candidate_data 
+ON alias.recipient_committee_id = candidate_data.committee_id
+GROUP BY alias.recipient_name, alias.contributor_type
+HAVING district IS NOT NULL
+ORDER BY alias.recipient_name
