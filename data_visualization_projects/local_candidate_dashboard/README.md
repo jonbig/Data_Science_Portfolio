@@ -81,13 +81,22 @@ This horizontal bar chart will display the candidate's name along with the total
 
 This pie chart will show the proportional contribution types for each candidate's fundraising. To create the chart we will use aggregate functions in SQL to group the contributions by candidate and contributor type and join the resulting table with the candidates table in order to populate the respective legislative districts.
 
+![3](https://user-images.githubusercontent.com/102785707/202818231-a2e127bb-9a47-44c2-b15b-e47dc3afb2dc.PNG)
+
+
 **Super PAC Activity**
 
 This stacked bubble chart will tell voters which super PACs are making political expenditures in their local district. We will need to first join the expenditures data with the candidates table so that each expenditure is associated with a legislative district. We’ll also need to join the expenditures table with the committees table to bring over the purpose of the committee. We’ll then group the table by the committee name, and use the HAVING filter to include only independent expenditures. The last step is to filter the table by district, and that is done automatically when the voter selects their district in the district locator visualization. 
 
+![4](https://user-images.githubusercontent.com/102785707/202818323-8794a12b-e052-4569-ab49-81a21da4a13b.PNG)
+
+
 **Donor Details**
 
 This text table allows voters to drill down into the data behind the Fundraising Profile visualization so that they can see the names of the donors that make up whichever wedge was selected.  We can therefore use almost  the same query here as we used for the Fundraising Profile visualization, with the one additional step of including the committee name field from the contributions table.
+
+![5](https://user-images.githubusercontent.com/102785707/202818390-c3b8e225-d407-4a75-8c19-f04d9f696178.PNG)
+
 
 
 
