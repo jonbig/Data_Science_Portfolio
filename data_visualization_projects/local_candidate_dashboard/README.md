@@ -93,7 +93,7 @@ This pie chart will show the proportional contribution types for each candidate'
 
 **Super PAC Activity**
 
-This stacked bubble chart will tell voters which super PACs are making political expenditures in their local district. We will need to first join the expenditures data with the candidates table so that each expenditure is associated with a legislative district. We’ll also need to join the expenditures table with the committees table to bring over the purpose of the committee. We’ll then group the table by the committee name, and use the HAVING filter to include only independent expenditures. 
+This stacked bubble chart will tell voters which super PACs are making political expenditures in their local district. We will need to first join the expenditures data with the candidates table so that each expenditure is associated with a legislative district. We’ll also need to join the expenditures table with the committees table to bring over the purpose of the committee which will appear when the voter hovers over a bubble. We’ll then group the table by the committee name, and use the HAVING filter to include only independent expenditures. 
 
 ![4](https://user-images.githubusercontent.com/102785707/202818323-8794a12b-e052-4569-ab49-81a21da4a13b.PNG)
 
