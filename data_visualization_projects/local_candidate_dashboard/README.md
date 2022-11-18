@@ -54,7 +54,7 @@ The next step is to upload the 4 data datasets into MySQL Workbench to clean and
 
 Now that the data is cleaned, the next step is to build the tables needed for each of the 3 visualizations. This isn't strictly necessary as Tableau supports table merges natively. However, I've found that using SQL joins and connecting Tableau to the resulting tables yeilds more responsive visualizations. 
 
-[The SQL code for all of these visualizations can be found here.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/local_candidate_dashboard/local_candidate_dashboard_visualizations.sql)
+[The SQL file for all of these visualizations can be found here.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/local_candidate_dashboard/local_candidate_dashboard_visualizations.sql)
 
 **District Locator**
 
