@@ -69,12 +69,18 @@ This text table is built from the candidates table with a simple select query in
 
 ![test2](https://user-images.githubusercontent.com/102785707/202818093-bbe7016b-5e3d-4a84-b194-450de74b581f.PNG)
 
+![7](https://user-images.githubusercontent.com/102785707/202818740-e6bf9677-eb36-4eb3-8b4d-845c5beaab0d.PNG)
+
+
 
 **Total Donations**
 
 This horizontal bar chart will display the candidate's name along with the total dollar amount of contributions they've received. I'll use SQL to join the data from the contributions table with the candidates table on the committee ID field. We can then group the resulting table by candidate name and the sum of the contribution amounts. 
 
 ![5](https://user-images.githubusercontent.com/102785707/202818513-c68fa4c3-d754-43c2-868c-adc1df934139.PNG)
+
+![8](https://user-images.githubusercontent.com/102785707/202818753-2492c216-9d98-4e81-9216-4f952546099b.PNG)
+
 
 
 **Fundraising Profile**
@@ -83,12 +89,18 @@ This pie chart will show the proportional contribution types for each candidate'
 
 ![3](https://user-images.githubusercontent.com/102785707/202818231-a2e127bb-9a47-44c2-b15b-e47dc3afb2dc.PNG)
 
+![9](https://user-images.githubusercontent.com/102785707/202818768-09e100c6-3555-4a18-b1ec-19f028624f2d.PNG)
+
+
 
 **Super PAC Activity**
 
 This stacked bubble chart will tell voters which super PACs are making political expenditures in their local district. We will need to first join the expenditures data with the candidates table so that each expenditure is associated with a legislative district. We’ll also need to join the expenditures table with the committees table to bring over the purpose of the committee. We’ll then group the table by the committee name, and use the HAVING filter to include only independent expenditures. The last step is to filter the table by district, and that is done automatically when the voter selects their district in the district locator visualization. 
 
 ![4](https://user-images.githubusercontent.com/102785707/202818323-8794a12b-e052-4569-ab49-81a21da4a13b.PNG)
+
+![10](https://user-images.githubusercontent.com/102785707/202818928-58bf25f4-85b4-4ff6-97db-a70eddb0dcea.PNG)
+
 
 
 **Donor Details**
@@ -97,10 +109,16 @@ This text table allows voters to drill down into the data behind the Fundraising
 
 ![5](https://user-images.githubusercontent.com/102785707/202818390-c3b8e225-d407-4a75-8c19-f04d9f696178.PNG)
 
+![11](https://user-images.githubusercontent.com/102785707/202818945-aca9e7dc-3795-4cb7-a684-045adf4ad7b1.PNG)
+
+
 
 
 
 ## **5. Share data with your audience.**
 
-![Capture](https://user-images.githubusercontent.com/102785707/201451088-6da1ab7c-efba-491b-a053-028c362e02ac.PNG)
+![13](https://user-images.githubusercontent.com/102785707/202819056-01948b54-1ea2-4906-9a21-62de8f003d9d.PNG)
+
+
+
 
