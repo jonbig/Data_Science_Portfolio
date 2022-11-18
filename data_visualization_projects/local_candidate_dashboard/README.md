@@ -34,9 +34,9 @@ This project includes:
 
 All data on state legislative candidates can be found at the Colorado Secretary of State’s website. Unfortunately, there are no available reports that include important attributes like the candidate’s district, political party etc. Copying and pasting this data for hundreds of candidates would be incredibly time consuming, so I built a simple web scraper in python to automate the process. The scraper saves all of the data as a CSV file. 
 
-[The python code for the candidate data scraper has been uploaded to this project folder.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/local_candidate_dashboard/candidate_committee_scraper.py)
+[The python code for the candidate data scraper has been uploaded to this project folder here.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/local_candidate_dashboard/candidate_committee_scraper.py)
 
-[The python code for the committee data scraper has been uploaded to this project folder.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/local_candidate_dashboard/committee_scraper.py)
+[The python code for the committee data scraper has been uploaded to this project folder here.](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/local_candidate_dashboard/committee_scraper.py)
 
 **District Geographical Data**
 
