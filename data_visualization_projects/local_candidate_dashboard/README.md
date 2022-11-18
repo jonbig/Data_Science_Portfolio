@@ -71,6 +71,9 @@ This text table is built from the candidates table with a simple select query in
 
 This horizontal bar chart will display the candidate's name along with the total dollar amount of contributions they've received. I'll use SQL to join the data from the contributions table with the candidates table on the committee ID field. We can then group the resulting table by candidate name and the sum of the contribution amounts. 
 
+![test1](https://user-images.githubusercontent.com/102785707/202817963-1e3ce415-5566-4c1c-b87f-8a2e93d09740.PNG)
+
+
 **Fundraising Profile**
 
 This pie chart will show the proportional contribution types for each candidate's fundraising. To create the chart we will use aggregate functions in SQL to group the contributions by candidate and contributor type and join the resulting table with the candidates table in order to populate the respective legislative districts.
