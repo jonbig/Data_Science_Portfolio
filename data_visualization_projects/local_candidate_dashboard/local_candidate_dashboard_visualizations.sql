@@ -33,3 +33,14 @@ ORDER BY alias.recipient_name
   
   
 /*****************************************/
+
+/*Super PAC Activity*/  
+
+SELECT alias.recipient_name, SUM(alias.contribution_amount), alias.expenditure_type, alias.committee_name, alias.candidate_name, candidates.district, committee_data.committee_purpose
+FROM expenditure_data AS alias
+LEFT JOIN candidates 
+ON alias.recipient_name = candidate_data.candidate_name
+LEFT JOIN committee_data
+ON alias.committee_name = committee_data.committee_name
+GROUP BY committee_name
+HAVING expenditure_type = 'Independent Expenditures'
