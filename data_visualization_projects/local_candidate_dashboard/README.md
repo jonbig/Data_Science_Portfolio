@@ -17,7 +17,7 @@ The dashboard is made up of 6 visualizations:
 
 - Fundraising profile- Pie charts drilling down into each candidate’s fundraising total by contribution type, giving voters an idea of the candidate’s overall fundraising strategy. The wedges in these pie charts act as filters for the Donor Details visualization
 
-- Super PAC Activity- A stacked bubble chart of the super PACs spending money in the selected legislative district. This visualization acts as a filter for the Political Committee Research Dashboard. For example, a voter notices that Super PAC XYZ has spent $100,000 supporting candidate John Smith. Clicking on the bubble associated with Super PAC XYZ will automatically filter the Political Committee Research Dashboard to display information associated with Super PAC XYZ.
+- Super PAC Activity- Super PACs make up the majority of political spending in many competitive elections. If we’re not examining their spending, we’re missing most of the picture. This stacked bubble chart acts as a filter for the Political Committee Research Dashboard. For example, a voter notices that Super PAC XYZ has spent $100,000 supporting candidate John Smith. Clicking on the bubble associated with Super PAC XYZ will automatically filter the Political Committee Research Dashboard to display information associated with Super PAC XYZ.
 
 - Donor Details- A table that displays the contributor name, and contribution amount. This table is filtered by clicking a wedge in the fundraising profile pie chart. For example, a voter sees that candidate John Smith has received 33% of their money from PACs, clicking on that wedge will filter this table to display the names of those pacs and their respective contribution amounts to John Smith. Voters can also click on any of these committees to filter the Political Committee Research Dashboard to display information associated with the selected committee.
 
@@ -58,7 +58,7 @@ Now that the data is cleaned, the next step is to build the tables needed for ea
 
 **District Locator**
 
-Since this is a shapefile, we will connect it to Tableau directly. We will define a one to many relationship with the other tables based on the district field. This is similar to a SQL join on the district field, but using tableau's relationship function allows us to keep the shapefile intact. Lastly, we will add a filter that allows the voter to select betwen displaying the Colorado House Districts and the Colorado Senate Districts. The district locator will act as a filter for the remaining visualizations in this dashboard. For example, a voter uses the map to determine they live in Colorado House District 8, they simply click the district and the dashboard is automatically filtered to only display information (candidates etc) associated with House District 8.
+Since this is a shapefile, we will connect it to Tableau directly. We will define a one to many relationship with the other tables based on the district field. This is similar to a SQL join on the district field, but using tableau's relationship function allows us to keep the shapefile intact. Lastly, we will add a filter that allows the voter to select betwen displaying the Colorado House Districts and the Colorado Senate Districts. The district locator will act as a filter for the remaining visualizations in this dashboard. For example, a voter uses the map to determine they live in Colorado House District 8, they simply click the district and the dashboard is automatically filtered to only display information (candidates etc) associated with House District 8. This means that each table will need to contain a districts field.
 
 **Candidate Info Table**
 
@@ -70,11 +70,16 @@ This horizontal bar chart will display the candidate's name along with the total
 
 **Fundraising Profile**
 
-This pie chart will show the proportional contribution types for each candidate's fundraising. This will give the voters an idea of how a candidate is funding their campaign. To create the chart we will use aggregate functions in SQL to group the contributions by candidate and contributor type and join the resulting table with the candidates table in order to populate the respective legislative districts.
+This pie chart will show the proportional contribution types for each candidate's fundraising. To create the chart we will use aggregate functions in SQL to group the contributions by candidate and contributor type and join the resulting table with the candidates table in order to populate the respective legislative districts.
 
 **Super PAC Activity**
 
+This stacked bubble chart will tell voters which super PACs are making political expenditures in their local district. We will need to first join the expenditures data with the candidates table so that each expenditure is associated with a legislative district. We’ll also need to join the expenditures table with the committees table to bring over the purpose of the committee. We’ll then group the table by the committee name, and use the HAVING filter to include only independent expenditures. The last step is to filter the table by district, and that is done automatically when the voter selects their district in the district locator visualization. 
+
 **Donor Details**
+
+This text table allows voters to drill down into the data behind the Fundraising Profile visualization so that they can see the names of the donors that make up whichever wedge was selected.  We can therefore use almost  the same query here as we used for the Fundraising Profile visualization, with the one additional step of including the committee name field from the contributions table.
+
 
 
 ## **5. Share data with your audience.**
