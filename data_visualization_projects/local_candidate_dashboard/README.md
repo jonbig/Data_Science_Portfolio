@@ -48,7 +48,7 @@ The contribution and expenditure data can be downloaded in bulk in csv form.
 
 ## **3. Process data by cleaning and checking the information.**
 
-The next step is to upload the 4 data datasets into MySQL Workbench to clean and process the data with SQL. [Click here to view the SQL code used to clean the data for all 4 tables](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/local_candidate_dashboard/local_candidate_dashboard_data_cleaning.sql)
+The next step is to upload the data datasets into MySQL Workbench to clean and process the data with SQL. Many SQL queries were required to clean and process this data. [You can view all of those queries here](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_visualization_projects/local_candidate_dashboard/local_candidate_dashboard_data_cleaning.sql)
 
 ## **4. Analyze data to find patterns, relationships, and trends.**
 
