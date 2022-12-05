@@ -88,9 +88,10 @@ This text field displays the total amount of money the committee has received. T
 
 **Electoral Expenditures**
 
-This text table displays all of the candidates and campaigns the committee is supporting during this election cycle. It also displays the candidate’s office, district, and political party. This will allow voters to see a snapshot of the committee’s electoral activity. We’ll first need to join the expenditure table with the candidates table so that we have the candidate’s office, district, and political party information. We’ll then group the table by committee name, sum the contribution amounts, and use HAVING to only include the expenditures that are listed as political contributions:
+This text table displays all of the candidates and campaigns the committee is supporting during this election cycle. It also displays the candidate’s office, district, and political party. This will allow voters to see a snapshot of the committee’s electoral activity. We’ll first need to join the expenditure table with the candidates table so that we have the candidate’s office, district, and political party information. We’ll then group the table by committee name, sum the contribution amounts, and use HAVING to only include the expenditures that are listed as political contributions.
 
-![comm5](https://user-images.githubusercontent.com/102785707/205723787-d4e98179-410e-49c6-8a0d-343e6f544b2a.PNG
+![comm5](https://user-images.githubusercontent.com/102785707/205723970-99c5242e-b176-4a77-bde6-455a7989798a.PNG)
+
 
 
 **Expenditure Detail**
