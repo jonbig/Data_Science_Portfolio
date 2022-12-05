@@ -47,6 +47,20 @@ Media and news outlets often neglect to cover state and local elections. As a re
 - Tableau (for data visualization and interactivity)
 
 
+### [Political Committee Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/political_committee_research_dashboard)
+
+### **Objective**
+
+Every few years the US sets a new record for the most expensive election in our history. Billions of dollars flow into local, state, and national elections from countless different political organizations. Who are these organizations? Where does their money come from? What do they hope to accomplish? In this project we will build a dashboard that empowers Colorado voters with the answers to all of these questions, and  more.
+
+
+### **Project Features**
+
+- Python: (for data gathering)
+- SQL (for data processing and table joins)
+- Tableau (for data visualization and interactivity)
+
+
 
 # Machine Learning
 
