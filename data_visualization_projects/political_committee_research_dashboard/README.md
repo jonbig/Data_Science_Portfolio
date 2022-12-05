@@ -66,11 +66,19 @@ This text field displays the total amount of money the committee has received. T
 
 ![comm2](https://user-images.githubusercontent.com/102785707/205723306-24f5ae51-b1c4-4109-ab4f-24d8d65590fc.PNG)
 
+![comm_info](https://user-images.githubusercontent.com/102785707/205724304-119383b0-2527-4edc-b76d-c522071ccd02.PNG)
+
+
 **Fundraising Profile**
 
 This pie chart breaks the total fundraising amount into categories based on the contributor type. This will give the voter a rough idea of how the committee is being funded. We can modify an earlier query slightly to build a table that includes the committee name and total contribution amount by category using an additional group by statement:
 
 ![comm3](https://user-images.githubusercontent.com/102785707/205723405-0c383175-7ced-46a6-8c37-2c84a1a90e61.PNG)
+
+![comm_fund_profile](https://user-images.githubusercontent.com/102785707/205724484-f51b179c-884e-4b98-b676-53995d69389a.PNG)
+
+
+
 
 
 **Donor Details**
@@ -79,6 +87,9 @@ This text table allows voters to drill down into the data behind the Fundraising
 
 ![comm4](https://user-images.githubusercontent.com/102785707/205723517-0b4781b3-dc6a-4c68-a085-d8722c897eda.PNG)
 
+![com_donor_dtail](https://user-images.githubusercontent.com/102785707/205724562-8dec81d6-534e-4bdf-8a74-8479779c99d8.PNG)
+
+
 
 **Total Committee Spending**
 
@@ -86,17 +97,28 @@ This text field displays the total amount of money the committee has received. T
 
 ![comm 5](https://user-images.githubusercontent.com/102785707/205723670-1b458189-6b52-4c93-81b7-56cc54b50fa1.PNG)
 
+![comm_exp](https://user-images.githubusercontent.com/102785707/205724617-84274676-6cae-4e6c-8264-e5ee6bb05bd1.PNG)
+
+
 **Electoral Expenditures**
 
 This text table displays all of the candidates and campaigns the committee is supporting during this election cycle. It also displays the candidate’s office, district, and political party. This will allow voters to see a snapshot of the committee’s electoral activity. We’ll first need to join the expenditure table with the candidates table so that we have the candidate’s office, district, and political party information. We’ll then group the table by committee name, sum the contribution amounts, and use HAVING to only include the expenditures that are listed as political contributions.
 
 ![comm5](https://user-images.githubusercontent.com/102785707/205723970-99c5242e-b176-4a77-bde6-455a7989798a.PNG)
 
+![comm_electoral](https://user-images.githubusercontent.com/102785707/205724643-516a701a-3ede-40f9-ad63-3b83c9985d47.PNG)
+
+
 
 
 **Expenditure Detail**
 
 This text table allows voters to drill down into the data behind the Total Committee Spending visualization so that they can see the names of the recipients that make up whichever wedge they have selected. To build the table we will need to group the expenditure data table by the committee name and 
+
+
+
+
+![comm_exp_detail](https://user-images.githubusercontent.com/102785707/205724677-3da2dd22-ab2d-410d-9bd8-ae69724df943.PNG)
 
 
 
