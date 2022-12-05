@@ -124,9 +124,10 @@ This text table allows voters to drill down into the data behind the Total Commi
 
 ## **5. Share data with your audience.**
 
-Below is an image of the full dashboard. [Click here to view and interact with dashboard.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTrackerUpdated/DistrictDash?publish=yes)
+Below is an image of the full dashboard. [Click here to view and interact with dashboard.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalCommitteeDashboard/CommitteeDash)
 
-![13](https://user-images.githubusercontent.com/102785707/202819056-01948b54-1ea2-4906-9a21-62de8f003d9d.PNG)
+
+![commdash](https://user-images.githubusercontent.com/102785707/205725945-8ea2dc3a-954b-4934-b27b-222cc6519309.PNG)
 
 
 
