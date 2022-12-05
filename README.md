@@ -1,7 +1,7 @@
 # Data Science Portfolio 
 
 
-This repository is a portfolio of data science projects I’ve completed. Many of the projects are designed to solve real-world problems I’ve encountered in my political/advocacy career, other projects were completed for educational purposes. Python based projects are typically presented in Jupyter Notebooks, with the exception of ad hoc programs such as web scrapers built to gather data for specific projects. SQL projects will contain a read me markdown file that will walk through the prijectstep by step. Each step will contain links to relevent SQL files. Data visualization projects will contain links to Tableau public where you can view and interact with the visualizations and dashboards.
+This repository is a portfolio of data science projects I’ve completed. Many of the projects are designed to solve real-world problems I’ve encountered in my political/advocacy career, other projects were completed for educational purposes. Python based projects are typically presented in Jupyter Notebooks, with the exception of ad hoc programs such as web scrapers built to gather data for specific projects. SQL projects will contain a read me markdown file that will walk through the project step by step. Each step will contain links to relevent SQL files. Data visualization projects will contain links to Tableau public where you can view and interact with the visualizations and dashboards.
 
 All projects will follow a similar work flow:
 
