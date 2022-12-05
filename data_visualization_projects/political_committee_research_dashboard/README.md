@@ -110,18 +110,6 @@ This text table displays all of the candidates and campaigns the committee is su
 
 
 
-
-**Expenditure Detail**
-
-This text table allows voters to drill down into the data behind the Total Committee Spending visualization so that they can see the names of the recipients that make up whichever wedge they have selected. To build the table we will need to group the expenditure data table by the committee name and 
-
-
-
-
-![comm_exp_detail](https://user-images.githubusercontent.com/102785707/205724677-3da2dd22-ab2d-410d-9bd8-ae69724df943.PNG)
-
-
-
 ## **5. Share data with your audience.**
 
 Below is an image of the full dashboard. [Click here to view and interact with dashboard.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalCommitteeDashboard/CommitteeDash)
