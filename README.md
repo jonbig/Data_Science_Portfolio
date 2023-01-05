@@ -19,6 +19,18 @@ _Note: Several of the Data Visualization Projects below are components of a larg
 
 # Data Analysis 
 
+### [Linear Regression from Scratch](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/linear_regression_from_scratch/%20linear_regression_scratch.ipynb)
+
+### **Objective**
+
+The purpose of this project is to gain a thorough understanding of linear regression by building a model from scratch. The most common way of recreating linear regression from scratch is to simply rewrite the formula in python, but I find that looking at the formula alone is not always enough to understand how it works. Instead, we will break the formula down into pieces that are easier to understand. We'll calculate one piece at a time, put the whole model together, and then check our work using seaborn and statsmodels.
+
+### **Project Features**
+
+- Python
+- Pandas, Sklearn, Statemodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
+- Model construction, Correlation matrices, scatterplots
+
 ### [Movie Data Correlations](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/movie_data_correlation_testing)
 
 ### **Objective**
@@ -32,17 +44,6 @@ In this project we will examine IMDB data on thousands of movies to determine if
 - Correlation matrices, scatterplots, heatmaps
 - Linear regression
 
-### [Linear Regression from Scratch](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/linear_regression_from_scratch/%20linear_regression_scratch.ipynb)
-
-### **Objective**
-
-The purpose of this project is to gain a thorough understanding of linear regression by building a model from scratch. The most common way of recreating linear regression from scratch is to simply rewrite the formula in python, but I find that looking at the formula alone is not always enough to understand how it works. Instead, we will break the formula down into pieces that are easier to understand. We'll calculate one piece at a time, put the whole model together, and then check our work using seaborn and statsmodels.
-
-### **Project Features**
-
-- Python
-- Pandas, Sklearn, Statemodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
-- Model construction, Correlation matrices, scatterplots
 
 
 # Data Visualization
