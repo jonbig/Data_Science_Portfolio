@@ -40,8 +40,8 @@ The purpose of this project is to build amodel that predicts whether a person wi
 ### **Project Features**
 
 - Python
-- Pandas, Sklearn, Statemodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
-- Model construction, Correlation matrices, scatterplots
+- Pandas, Sklearn, Seaborn, Matplotlib, Jupyter Notebooks
+- Logistic Regression, Correlation matrices, scatterplots
 
 ### [Movie Data Correlations](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/movie_data_correlation_testing)
 
