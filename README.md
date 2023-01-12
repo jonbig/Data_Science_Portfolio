@@ -31,6 +31,18 @@ The purpose of this project is to gain a thorough understanding of linear regres
 - Pandas, Sklearn, Statemodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
 - Model construction, Correlation matrices, scatterplots
 
+### [Predicting Diabetes with Logistic Regression Model](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/diabetes_logistic_regression)
+
+### **Objective**
+
+The purpose of this project is to build amodel that predicts whether a person will develop diabates based on health-related metrics.
+
+### **Project Features**
+
+- Python
+- Pandas, Sklearn, Statemodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
+- Model construction, Correlation matrices, scatterplots
+
 ### [Movie Data Correlations](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/movie_data_correlation_testing)
 
 ### **Objective**
