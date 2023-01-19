@@ -1,6 +1,6 @@
 ## Model Summary ##
 
-The model uses a classification algorithm called a logistic regression to estimate the likelihood that a voter is going to participate in the Denver 2023 Municipal election. It factors in 74 different features (voter age, party, past election participation, etc) and outputs a numeric probability for each voter. The model currently has an accuracy of 89% and an F1 score of 82% at a 50% threshold. I’ll talk more about model performance below.
+This is a modified logisit regression model to estimate the likelihood that a voter is going to participate in the Denver 2023 Municipal election. It factors in 74 different features (voter age, party, past election participation, etc) and outputs a numeric probability for each voter. The model currently has an accuracy of 89% and an F1 score of 82% at a 50% threshold. 
 
 ## Problem ##
 
@@ -20,14 +20,6 @@ Another problem we run into with traditional voter universes is that we often tr
 
 Instead of having a single universe of voters you could use voting probabilities to create tiers of voters according to their predicting voting probability. If one precinct has too many doors to canvass on a given day, maybe it makes sense to canvass the tier 1 voters in that precinct which consists of voters who have an 80% + probability of voting. Extra funds for a GOTV text? Maybe it makes sense to target tier 3 voters who have a lower voting probability of 60-70%. These are all made up scenarios and they may or may not make sense in your campaign, but the general idea is the same for any campaign. By having voting probability for each voter you can make more informed decisions about how to deploy campaign resources in order to maximize their effectiveness.  
 
-## Model Creation ##
-
-This model was built to predict turnout for the 2019 Denver Municipal Election. I exported voter data from VAN and removed any features that were from after 2019. I then trained a modified logistic regression algorithm on 80% of that data. The objective with this training is for the algorithm to learn what features (age, party voting history etc) were the best predictors of whether or not a person voted in the 2019 municipal election. Features that were most important, like voting history, are given a higher weight than features like sex, which ended up non being related to voter turnout. All of those features and their respective weights end up in one big equation which ends up being the model.
-
-I used the 2019 Denver Municipal Election because it’s the closest we have to the upcoming election. Will there be factors at play in 2023 that were around in 2019? Definitely. But using existing data and statistics is the best method we have for predicting what will happen next.
-
-After the model was trained, I then tested it on the 20% of voter data that it has not seen so that I could evaluate its performance. 
-
 ## Model Performance ##
 
 In machine learning lingo, this is called a classification model because its goal is to separate voters into two classes, those who voted in the 2019 Denver Municipal election and those who did not. I mentioned the model’s accuracy before, but evaluating the performance if a classification model requires a little more than accuracy. 
@@ -36,18 +28,18 @@ For example, if we only targeted people who were > 90%  likely to vote (a 90% th
 
 On the other end of the spectrum, we could target people who were > 50% likely to vote (a 50% threshold). That would reduce the number of false negatives because we are targeting so many more people, but expanding the universe that much would give us a ton of voters who end up not voting (false positives). These aspects are known as precision and recall. There isn’t a single ‘best case’ for these metrics. It really just depends on how the model is used.
 
-A not precise model may find a lot of the voters, but it's selection method is noisy: it also wrongly detects many voters that won't actually vote.
+- A not precise model may find a lot of the voters, but it's selection method is noisy: it also wrongly detects many voters that won't actually vote.
 
-A precise model is very “pure”: maybe it does not find all the voters, but the ones that the model does class as voters are very likely to be correct.
+- A precise model is very “pure”: maybe it does not find all the voters, but the ones that the model does class as voters are very likely to be correct.
 
-A model with high recall succeeds well in finding all the voters  in the data, even though they may also wrongly identify people who end up not voting.
+- A model with high recall succeeds well in finding all the voters  in the data, even though they may also wrongly identify people who end up not voting.
 
-A model with low recall is not able to find all (or a large part) of the voters.
+- A model with low recall is not able to find all (or a large part) of the voters.
 
 Accuracy is simply the total number of correct predictions divided by the # of total predictions. Here is a table with this model’s performance at various thresholds:
 
-This line chart shows the true and false positive rate at increasing thresholds. As you can see, it maintains a low rate of false positives (voters who the model says will vote who ended up not voting) all the way up to around 0.8 (80% threshold). Once we get above 80% we start seeing increases in the rate of false positives. 
+![image](https://user-images.githubusercontent.com/102785707/213332294-0a7c190f-e7c0-421f-af6f-da34cfd70140.png)
 
+This line chart shows the true and false positive rate at increasing thresholds. As you can see, it maintains a low rate of false positives (voters who the model says will vote who ended up not voting) all the way up to around 0.8 (80% threshold). Once we get above 80% we start seeing increases in the rate of false positives.
 
-
-
+![image](https://user-images.githubusercontent.com/102785707/213332427-14e92d8b-0bc2-47cc-8152-3ff7aa436c7d.png)
