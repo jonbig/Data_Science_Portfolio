@@ -19,7 +19,7 @@ _Note: Several of the Data Visualization Projects below are components of a larg
 
 # Data Analysis & Machine Learning
 
-### [Voter Turnout Model](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/voter_turnout_model)
+### [Voter Turnout Model](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/voter_turnout_model/voter_turnout_model.ipynb)
 
 ### **Objective**
 
