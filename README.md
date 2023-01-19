@@ -19,6 +19,19 @@ _Note: Several of the Data Visualization Projects below are components of a larg
 
 # Data Analysis 
 
+### [Voter Turnout Model](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/voter_turnout_model)
+
+### **Objective**
+
+This is a modified logistic regression model to estimate the likelihood that a voter is going to participate in the Denver 2023 Municipal election. It factors in 74 different features (voter age, party, past election participation, etc) and outputs a numeric probability for each voter. The model currently has an accuracy of 89% and an F1 score of 82% at a 50% threshold.
+
+### **Project Features**
+
+- Python
+- L1 Rwwgularization, ROC Curve, Classification Report, K Folds Cross-Validation
+- Pandas, Sklearn, Statemodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
+- ROC Curve, Classification Report,
+
 ### [Linear Regression from Scratch](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/linear_regression_from_scratch/%20linear_regression_scratch.ipynb)
 
 ### **Objective**
