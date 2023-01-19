@@ -1,12 +1,12 @@
 ## Model Summary ##
 
-This is a modified logisit regression model to estimate the likelihood that a voter is going to participate in the Denver 2023 Municipal election. It factors in 74 different features (voter age, party, past election participation, etc) and outputs a numeric probability for each voter. The model currently has an accuracy of 89% and an F1 score of 82% at a 50% threshold. 
+This is a modified logistic regression model to estimate the likelihood that a voter is going to participate in the Denver 2023 Municipal election. It factors in 74 different features (voter age, party, past election participation, etc) and outputs a numeric probability for each voter. The model currently has an accuracy of 89% and an F1 score of 82% at a 50% threshold. 
 
 ## Problem ##
 
 The two main problems I wanted to address with this model are universe accuracy and voter prioritization.
 
-**Universe Accuracy**
+### Universe Accuracy ###
 
 When we build voter universes in VAN we typically start by selecting groups of voters based on their past voting history. This makes perfect sense because we know that a person’s voting history is the best predictor of whether they will vote in an upcoming election. But should we target voters who have voted in the last 3 elections consecutively, or should we target voters who have voted in 3 of the last 4 elections? What about primary elections? Are certain elections better at predicting turnout than others? I’ve worked on more campaigns than I can remember and have built many different voter universes and in every case I can recall, we didn’t know the answer to those questions. We simply picked some combination of voting history and built the universe from there. 
 
@@ -14,7 +14,7 @@ To be fair, even without answers to those questions campaigns can capture a larg
 
 With machine learning, we can use statistical analysis to determine which combination of voting history and other factors are most likely to predict whether someone will vote in an upcoming election. We can then apply that model to every voter in VAN to predict the probability that they will vote in the upcoming election. Think about how many close elections you’ve seen and consider that a campaign with a universe consisting of voters who have voted in the last 3 elections may be targeting significantly different populations than a campaign targeting voters who have participated in 3 of the last 5 elections. What each campaign chose may have ultimately decided who won the election. Something as important as universe creation should be backed by data.
 
-**Voter Prioritization**
+### Voter Prioritization ###
 
 Another problem we run into with traditional voter universes is that we often treat each voter as if they are equally likely to vote. However, even within a well targeted universe there is a range of probabilities. A voter with a 65% chance of voting should probably be treated differently (in some ways) than a voter who has a 95% chance of voting. Should a campaign really spend valuable resources on GOTV for a voter with a 95% chance to vote? If funds come up short for the final mailer and we can't send it to the whole universe, maybe we could prioritize those with a higher voting probability.
 
