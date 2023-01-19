@@ -17,7 +17,7 @@ Below you will find links to all projects each with a brief project summary. Tha
 _Note: Several of the Data Visualization Projects below are components of a larger political data project I named [Dark Money Spotlight](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker2/DistrictDash). This project was designed to allow Colorado voters to easily evaluate the candidates and committees making political expenditures in their local districts. Thousands of Colorado voters used the Dark Money Spotlight website to research political candidates in advance of the 2022 midterm elections. The website has since been taken down, but you can still [access the political spending tracker here.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker2/DistrictDash) Please note the dashboards are not optimized for mobile._
 
 
-# Data Analysis 
+# Data Analysis & Machine Learning
 
 ### [Voter Turnout Model](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/voter_turnout_model)
 
@@ -69,7 +69,16 @@ In this project we will examine IMDB data on thousands of movies to determine if
 - Correlation matrices, scatterplots, heatmaps
 - Linear regression
 
+### [Image Classification Neural Network (Tensorflow)](https://github.com/jonbig/Data_Science_Portfolio/blob/main/machine_learning_projects/image_classification_neural_network/image_classification_neural_network.ipynb)
 
+### **Objective**
+
+The objective of this project is to build, train, and test a neural network that can accurately classify the types of clothing appearing in images.
+
+### **Project Features**
+- Python
+- Tensorflow, Keras, Numpy
+- Neural Networks
 
 # Data Visualization
 
@@ -98,22 +107,3 @@ Every few years the US sets a new record for the most expensive election in our 
 - Python: (for data gathering)
 - SQL (for data processing and table joins)
 - Tableau (for data visualization and interactivity)
-
-
-
-# Machine Learning
-
-
-### [Image Classification Neural Network (Tensorflow)](https://github.com/jonbig/Data_Science_Portfolio/blob/main/machine_learning_projects/image_classification_neural_network/image_classification_neural_network.ipynb)
-
-### **Objective**
-
-The objective of this project is to build, train, and test a neural network that can accurately classify the types of clothing appearing in images.
-
-### **Project Features**
-- Python
-- Tensorflow, Keras, Numpy
-- Neural Networks
-
-
-
