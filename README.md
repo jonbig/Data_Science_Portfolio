@@ -28,7 +28,8 @@ This is a modified logistic regression model to estimate the likelihood that a v
 ### **Project Features**
 
 - Python
-- L1 Rwwgularization, ROC Curve, Classification Report, K Folds Cross-Validation
+- Logistic Regression
+- Regularization, K Folds Cross-Validation
 - Pandas, Sklearn, Statemodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
 - ROC Curve, Classification Report,
 
