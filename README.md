@@ -85,7 +85,7 @@ The objective of this project is to build, train, and test a neural network that
 
 Additional visualization projects can be found in my [Tableau portfolio.](https://public.tableau.com/app/profile/jon.biggerstaff)
 
-### [Local Candidate Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/voting_district_locater)
+### [Local Candidate Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/local_candidate_dashboard)
 
 ### **Objective**
 
