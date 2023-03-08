@@ -23,7 +23,7 @@ _Note: Several of the Data Visualization Projects below are components of a larg
 
 ### **Objective**
 
-This is a modified logistic regression model to estimate the likelihood that a voter is going to participate in the Denver 2023 Municipal election. It factors in 74 different features (voter age, party, past election participation, etc) and outputs a numeric probability for each voter. The model currently has an accuracy of 89% and an F1 score of 82% at a 50% threshold.
+This is a modified logistic regression model to estimate the likelihood that a voter is going to participate in the Denver 2023 Municipal election. It factors in 74 different features (voter age, party, past election participation, etc) and outputs a numeric probability for each voter. The model currently has an accuracy of 90% and an F1 score of 82% at a 50% threshold.
 
 ### **Project Features**
 
