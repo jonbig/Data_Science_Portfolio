@@ -110,3 +110,16 @@ Every few years the US sets a new record for the most expensive election in our 
 - Python: (for data gathering)
 - SQL (for data processing and table joins)
 - Tableau (for data visualization and interactivity)
+
+### [Spotify Data Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/spotify_dashboard)
+
+### **Objective**
+
+This is  a simple dashboard designed to visualize 10 years of music stremaing history on Spotify. It features the TabCSS Tableau extension, which allows users to create styled backgrounds for dashboard objects and containers (rounded corners, color gradients etc). It uses Bootstrap CSS, Tailwind CSS color, and additional extended classes. Data cleaning was done with python.
+
+
+### **Project Features**
+
+- Python: (for data gathering)
+- SQL (for data processing and table joins)
+- Tableau (for data visualization and interactivity)
