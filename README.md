@@ -120,6 +120,5 @@ This is  a simple dashboard designed to visualize 10 years of music stremaing hi
 
 ### **Project Features**
 
-- Python: (for data gathering)
-- SQL (for data processing and table joins)
+- Python: (for data cleaning)
 - Tableau (for data visualization and interactivity)
