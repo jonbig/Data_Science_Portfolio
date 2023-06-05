@@ -115,7 +115,7 @@ Every few years the US sets a new record for the most expensive election in our 
 
 ### **Objective**
 
-This is  a simple dashboard designed to visualize 10 years of music stremaing history on Spotify. It features the TabCSS Tableau extension, which allows users to create styled backgrounds for dashboard objects and containers (rounded corners, color gradients etc). It uses Bootstrap CSS, Tailwind CSS color, and additional extended classes. Data cleaning was done with python.
+This is  a simple dashboard designed to visualize 10 years of music streaming history on Spotify. It features the TabCSS Tableau extension, which allows users to create styled backgrounds for dashboard objects and containers (rounded corners, color gradients etc). It uses Bootstrap CSS, Tailwind CSS color, and additional extended classes. Data cleaning was done with python.
 
 
 ### **Project Features**
