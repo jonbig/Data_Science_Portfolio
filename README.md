@@ -19,11 +19,11 @@ _Note: Several of the Data Visualization Projects below are components of a larg
 
 # Data Analysis & Machine Learning
 
-### [Voter Turnout Model](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/voter_turnout_model/voter_turnout_model.ipynb)
+### [Voter Turnout Model](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/voter_turnout_model/final_2019_denver_model.ipynb)
 
 ### **Objective**
 
-This is a modified logistic regression model to estimate the likelihood that a voter is going to participate in the Denver 2023 Municipal election. It factors in 74 different features (voter age, party, past election participation, etc) and outputs a numeric probability for each voter. The model currently has an accuracy of 90% and an F1 score of 82% at a 50% threshold.
+This purpose of this model is to assign a voting propensity score to each voter that corresponds to how likely they are to participate in a specific election. This solves two problems often faced by political campaigns. First, it provides an evidence-driven basis for building a "universe" of voters who will likely vote in an upcoming election. Secondly, the propensity score gives campaigns a basis on which they can segment and prioritize their outreach. For example, a campaign may choose to forego GOTV efforts on voters with propensity scores over 90%. That decision could free up resources which could be used to contact voters with lower propensity scores a second time, which will increase turnout. Propensity scores allow campaigns to easily plan their outreach according to their specific needs, and make it easy to modify those plans when the needs arises.
 
 ### **Project Features**
 
