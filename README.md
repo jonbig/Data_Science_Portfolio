@@ -33,7 +33,7 @@ This purpose of this model is to assign a voting propensity score to each voter 
 - Pandas, Sklearn, Statemodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
 - ROC Curve, Classification Report,
 
-### [Linear Regression from Scratch](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/linear_regression_from_scratch/%20linear_regression_scratch.ipynb)
+# [Linear Regression from Scratch](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/linear_regression_from_scratch/%20linear_regression_scratch.ipynb)
 
 ### **Objective**
 
@@ -45,7 +45,7 @@ The purpose of this project is to gain a thorough understanding of linear regres
 - Pandas, Sklearn, Statemodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
 - Model construction, Correlation matrices, scatterplots
 
-### [Predicting Diabetes with Logistic Regression Model](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/diabetes_logistic_regression)
+# [Predicting Diabetes with Logistic Regression Model](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/diabetes_logistic_regression)
 
 ### **Objective**
 
@@ -57,7 +57,7 @@ The purpose of this project is to build amodel that predicts whether a person wi
 - Pandas, Sklearn, Seaborn, Matplotlib, Jupyter Notebooks
 - Logistic Regression, Correlation matrices, scatterplots
 
-### [Movie Data Correlations](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/movie_data_correlation_testing)
+# [Movie Data Correlations](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/movie_data_correlation_testing)
 
 ### **Objective**
 
@@ -70,7 +70,7 @@ In this project we will examine IMDB data on thousands of movies to determine if
 - Correlation matrices, scatterplots, heatmaps
 - Linear regression
 
-### [Image Classification Neural Network (Tensorflow)](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/image_classification_neural_network/image_classification_neural_network.ipynb)
+# [Image Classification Neural Network (Tensorflow)](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/image_classification_neural_network/image_classification_neural_network.ipynb)
 
 ### **Objective**
 
@@ -81,11 +81,11 @@ The objective of this project is to build, train, and test a neural network that
 - Tensorflow, Keras, Numpy
 - Neural Networks
 
-# Data Visualization
+
 
 Additional visualization projects can be found in my [Tableau portfolio.](https://public.tableau.com/app/profile/jon.biggerstaff)
 
-### [Local Candidate Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/local_candidate_dashboard)
+# [Local Candidate Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/local_candidate_dashboard)
 
 ### **Objective**
 
@@ -98,7 +98,7 @@ Media and news outlets often neglect to cover state and local elections. As a re
 - Tableau (for data visualization and interactivity)
 
 
-### [Political Committee Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/political_committee_research_dashboard)
+# [Political Committee Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/political_committee_research_dashboard)
 
 ### **Objective**
 
@@ -111,7 +111,7 @@ Every few years the US sets a new record for the most expensive election in our 
 - SQL (for data processing and table joins)
 - Tableau (for data visualization and interactivity)
 
-### [Spotify Data Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/spotify_dashboard)
+# [Spotify Data Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/spotify_dashboard)
 
 ### **Objective**
 
