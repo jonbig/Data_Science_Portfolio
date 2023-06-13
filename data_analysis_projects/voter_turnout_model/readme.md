@@ -1,4 +1,4 @@
-# [Voter Turnout Model](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/voter_turnout_model)
+# [Voter Turnout Model](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/voter_turnout_model/final_2019_denver_model.ipynb)
 
 ### **Project Overview**
 
