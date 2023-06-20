@@ -31,3 +31,5 @@ The first step is to gather text data from the r/cycling and r/bicyling subreddi
 The RoBERTa model, short for "Robustly Optimized BERT Approach," is a transformer-based neural network model for natural language processing. The RoBERTa model is pre-trained on a large corpus of unlabeled text, where it learns to understand the patterns and semantics of language. After running each comment through the RoBERTa model, I am given a positive sentiment score, negative sentiment score, and a neutral sentiment score.
 
 To determine the sentiment for each cycling brand, I averaged the positive and negative sentiment scores for each brand's associated comments and graphed the results.
+
+![dist_loc](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/cycling_brand_sentiment/cycling_brands_chart.PNG)
