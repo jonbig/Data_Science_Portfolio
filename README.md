@@ -16,7 +16,30 @@ Below you will find links to all projects each with a brief project summary. Tha
 
 _Note: Several of the Data Visualization Projects below are components of a larger political data project I named [Dark Money Spotlight](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker2/DistrictDash). This project was designed to allow Colorado voters to easily evaluate the candidates and committees making political expenditures in their local districts. Thousands of Colorado voters used the Dark Money Spotlight website to research political candidates in advance of the 2022 midterm elections. The website has since been taken down, but you can still [access the political spending tracker here.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker2/DistrictDash) Please note the dashboards are not optimized for mobile._
 
+# [Cycling Brand Sentiment Analysis](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/voter_turnout_model/final_2019_denver_model.ipynb)
 
+### **Project Overview**
+
+Sentiment analysis is a technique used to understand and interpret people's feelings and opinions expressed in text. It helps us figure out whether a piece of text, like a review or social media post, conveys a positive, negative, or neutral sentiment. There are many potential applications of sentiment analysis:
+
+Customer Insights: Analyzing sentiment in customer feedback helps businesses understand customer satisfaction, preferences, and pain points. This information guides decision-making and improvements in products and services.
+
+Brand Reputation Management: Sentiment analysis allows organizations to monitor and manage their brand reputation. 
+
+Market Research: Sentiment analysis is valuable for market research, providing insights into consumer sentiment and emerging trends.
+
+Social Media Monitoring: Sentiment analysis helps businesses monitor sentiment on social media platforms, enabling real-time insights into public opinion, campaign effectiveness, and customer engagement.
+
+
+For this project we will be analyzing comments from online cycling communities on reddit to determine the prevailing sentiment associated with each brand.
+
+### Skills
+
+- Python
+- Logistic Regression
+- Regularization, K Folds Cross-Validation
+- Pandas, Sklearn, Statsmodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
+- ROC Curve, Classification Report,
 
 
 # [Voter Turnout Model](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/voter_turnout_model)
