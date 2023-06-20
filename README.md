@@ -16,7 +16,7 @@ Below you will find links to all projects each with a brief project summary. Tha
 
 _Note: Several of the Data Visualization Projects below are components of a larger political data project I named [Dark Money Spotlight](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker2/DistrictDash). This project was designed to allow Colorado voters to easily evaluate the candidates and committees making political expenditures in their local districts. Thousands of Colorado voters used the Dark Money Spotlight website to research political candidates in advance of the 2022 midterm elections. The website has since been taken down, but you can still [access the political spending tracker here.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker2/DistrictDash) Please note the dashboards are not optimized for mobile._
 
-# [Cycling Brand Sentiment Analysis](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/voter_turnout_model/final_2019_denver_model.ipynb)
+# [Cycling Brand Sentiment Analysis](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/cycling_brand_sentiment)
 
 ### **Project Overview**
 
