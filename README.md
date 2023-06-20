@@ -20,15 +20,15 @@ _Note: Several of the Data Visualization Projects below are components of a larg
 
 ### **Project Overview**
 
-Sentiment analysis is a technique used to understand and interpret people's feelings and opinions expressed in text. It helps us figure out whether a piece of text, like a review or social media post, conveys a positive, negative, or neutral sentiment. There are many potential applications of sentiment analysis:
+* Sentiment analysis is a technique used to understand and interpret people's feelings and opinions expressed in text. It helps us figure out whether a piece of text, like a review or social media post, conveys a positive, negative, or neutral sentiment. There are many potential applications of sentiment analysis:
 
-Customer Insights: Analyzing sentiment in customer feedback helps businesses understand customer satisfaction, preferences, and pain points. This information guides decision-making and improvements in products and services.
+* Customer Insights: Analyzing sentiment in customer feedback helps businesses understand customer satisfaction, preferences, and pain points. This information guides decision-making and improvements in products and services.
 
-Brand Reputation Management: Sentiment analysis allows organizations to monitor and manage their brand reputation. 
+* Brand Reputation Management: Sentiment analysis allows organizations to monitor and manage their brand reputation. 
 
-Market Research: Sentiment analysis is valuable for market research, providing insights into consumer sentiment and emerging trends.
+* Market Research: Sentiment analysis is valuable for market research, providing insights into consumer sentiment and emerging trends.
 
-Social Media Monitoring: Sentiment analysis helps businesses monitor sentiment on social media platforms, enabling real-time insights into public opinion, campaign effectiveness, and customer engagement.
+* Social Media Monitoring: Sentiment analysis helps businesses monitor sentiment on social media platforms, enabling real-time insights into public opinion, campaign effectiveness, and customer engagement.
 
 
 For this project we will be analyzing comments from online cycling communities on reddit to determine the prevailing sentiment associated with each brand.
