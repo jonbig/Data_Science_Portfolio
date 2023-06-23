@@ -41,6 +41,6 @@ The mean absolute percent error for this model is 0.0101%. The prophet model als
 
 ![dist_loc](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/ozone_prediction_model/output5.png)
 
-While the model is predicting the overall trend to be flat, the shorter time frames tell a different story. The weekly chart indicates that ozone is higher on the weekends. This phenomenon is called the "Ozone Weekend Effect" and is caused by a reduction of diesel traffic on the roadways- which is very counter intuitive. The yearly and daily charts show are more predictable trend of increasing ozone amounts during the hottest parts of the year and high-traffic times during the day.
+While the model is predicting the overall trend to be flat, the shorter time frames tell a different story. The weekly chart indicates that ozone is higher on the weekends. This phenomenon is called the "Ozone Weekend Effect" and is caused by a reduction of diesel traffic on the roadways- which is very counterintuitive. The yearly and daily charts a little more predictable, showing higher ozone levels during the hottest parts of the year and the most active times of the day.
 
 
