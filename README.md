@@ -67,6 +67,46 @@ This purpose of this model is to assign a voting propensity score to each voter 
 - Pandas, Sklearn, Statemodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
 - ROC Curve, Classification Report,
 
+
+# [Local Candidate Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/local_candidate_dashboard)
+
+### **Objective**
+
+Media and news outlets often neglect to cover state and local elections. As a result, most voters don’t know which candidates they are choosing between until they are completing their ballot. In this project we will design an interactive tool (in the form of a Tableau dashboard) that will allow voters in Colorado to quickly and easily find their state legislative districts, the candidates in those districts, and the relevant contact information. After election day, this dashboard can be easily modified to display the winning candidates. This will allow voters to easily see the legislators who represent them, allowing them to reach out to their local officials with questions or concerns.
+
+### **Project Features**
+
+- Python: (for data gathering)
+- SQL (for data processing and table joins)
+- Tableau (for data visualization and interactivity)
+
+
+# [Political Committee Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/political_committee_research_dashboard)
+
+### **Objective**
+
+Every few years the US sets a new record for the most expensive election in our history. Billions of dollars flow into local, state, and national elections from countless different political organizations. Who are these organizations? Where does their money come from? What do they hope to accomplish? In this project we will build a dashboard that empowers Colorado voters with the answers to all of these questions, and  more.
+
+
+### **Project Features**
+
+- Python: (for data gathering)
+- SQL (for data processing and table joins)
+- Tableau (for data visualization and interactivity)
+
+# [Spotify Data Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/spotify_dashboard)
+
+### **Objective**
+
+This is  a simple dashboard designed to visualize 10 years of music streaming history on Spotify. It features the TabCSS Tableau extension, which allows users to create styled backgrounds for dashboard objects and containers (rounded corners, color gradients etc). It uses Bootstrap CSS, Tailwind CSS color, and additional extended classes. Data cleaning was done with python.
+
+
+### **Project Features**
+
+- Python: (for data cleaning)
+- Tableau (for data visualization and interactivity)
+
+
 # [Linear Regression from Scratch](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/linear_regression_from_scratch/%20linear_regression_scratch.ipynb)
 
 ### **Objective**
@@ -119,40 +159,4 @@ The objective of this project is to build, train, and test a neural network that
 
 Additional visualization projects can be found in my [Tableau portfolio.](https://public.tableau.com/app/profile/jon.biggerstaff)
 
-# [Local Candidate Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/local_candidate_dashboard)
 
-### **Objective**
-
-Media and news outlets often neglect to cover state and local elections. As a result, most voters don’t know which candidates they are choosing between until they are completing their ballot. In this project we will design an interactive tool (in the form of a Tableau dashboard) that will allow voters in Colorado to quickly and easily find their state legislative districts, the candidates in those districts, and the relevant contact information. After election day, this dashboard can be easily modified to display the winning candidates. This will allow voters to easily see the legislators who represent them, allowing them to reach out to their local officials with questions or concerns.
-
-### **Project Features**
-
-- Python: (for data gathering)
-- SQL (for data processing and table joins)
-- Tableau (for data visualization and interactivity)
-
-
-# [Political Committee Research Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/political_committee_research_dashboard)
-
-### **Objective**
-
-Every few years the US sets a new record for the most expensive election in our history. Billions of dollars flow into local, state, and national elections from countless different political organizations. Who are these organizations? Where does their money come from? What do they hope to accomplish? In this project we will build a dashboard that empowers Colorado voters with the answers to all of these questions, and  more.
-
-
-### **Project Features**
-
-- Python: (for data gathering)
-- SQL (for data processing and table joins)
-- Tableau (for data visualization and interactivity)
-
-# [Spotify Data Dashboard](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_visualization_projects/spotify_dashboard)
-
-### **Objective**
-
-This is  a simple dashboard designed to visualize 10 years of music streaming history on Spotify. It features the TabCSS Tableau extension, which allows users to create styled backgrounds for dashboard objects and containers (rounded corners, color gradients etc). It uses Bootstrap CSS, Tailwind CSS color, and additional extended classes. Data cleaning was done with python.
-
-
-### **Project Features**
-
-- Python: (for data cleaning)
-- Tableau (for data visualization and interactivity)
