@@ -3,18 +3,6 @@
 
 This repository is a portfolio of data science projects I’ve completed. Many of the projects are designed to solve real-world problems I’ve encountered in my political/advocacy career, other projects were completed for educational purposes. Python based projects are typically presented in Jupyter Notebooks, with the exception of ad hoc programs such as web scrapers built to gather data for specific projects. SQL projects will contain a read me markdown file that will walk through the project step by step. Each step will contain links to relevent SQL files. Data visualization projects will contain links to Tableau public where you can view and interact with the visualizations and dashboards.
 
-All projects will follow a similar work flow:
-
-1. **Ask** questions and define the problem.
-2. **Prepare** data by collecting and storing the information.
-3. **Process** data by cleaning and checking the information.
-4. **Analyze** data to find patterns, relationships, and trends.
-5. **Share** data with your audience.
-6. **Act** on the data and use the analysis results.
-
-Below you will find links to all projects each with a brief project summary. Thanks for visiting my portfolio!
-
-_Note: Several of the Data Visualization Projects below are components of a larger political data project I named [Dark Money Spotlight](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker2/DistrictDash). This project was designed to allow Colorado voters to easily evaluate the candidates and committees making political expenditures in their local districts. Thousands of Colorado voters used the Dark Money Spotlight website to research political candidates in advance of the 2022 midterm elections. The website has since been taken down, but you can still [access the political spending tracker here.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker2/DistrictDash) Please note the dashboards are not optimized for mobile._
 
 # [Ozone Forecasting Model](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/voter_turnout_model/final_2019_denver_model.ipynb)
 
