@@ -10,13 +10,22 @@ The FRED API (Federal Reserve Economic Data API) provides access to a wide range
 - Pands, FRED API
 
 
-
 ### Method
 
-The first step is to gather text data from the r/cycling and r/bicyling subreddits using the Python Reddit API Wrapper, or PRAW. Reddit allows me to pull data from 1,000 submissions for each subreddit, for a total of 2,000 of the most popular submission in reach subreddit. I was then able to extract all of the comments associated with each submission, for a total of around 270,000 comments. The next step was to extract every comment that mentions a cycling brand, and then build a dataframe with those comments paired with the cycling brand(s) they mentioned. After cleaning and preprocessing the data, it was time to determine the sentiment for each comment. 
+The first step is to search the FRED database for the data I'm interested in. The search returns a dataframe which describes 4 different dataframes of quarterly median home price data, each one corresponding to a different geographic area. 
 
-The RoBERTa model, short for "Robustly Optimized BERT Approach," is a transformer-based neural network model for natural language processing. The RoBERTa model is pre-trained on a large corpus of unlabeled text, where it learns to understand the patterns and semantics of language. After running each comment through the RoBERTa model, I am given a positive sentiment score, negative sentiment score, and a neutral sentiment score.
+![dist_loc](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/fred_project/fred1.PNG)
 
-To determine the sentiment for each cycling brand, I averaged the positive and negative sentiment scores for each brand's associated comments and graphed the results.
+We can then loop through the 4 different IDs in the dataframe to extract the data and combine them all into a single dataframe which we can use to build a visualization.
 
-![dist_loc](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/cycling_brand_sentiment/cycling_brands_chart.PNG)
+![dist_loc](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/fred_project/fred3.PNG)
+
+Right away we can see that the Northeast and Western US have the highest home prices in the last 5 years. However, there have been significant increases in home prices for each region since 2018.Next we will use the FRED API to extract data for the average 30 year fixed mortgage rate going back 5 years. Just as we did before, we can use this data to build a visualization.
+
+![dist_loc](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/fred_project/fred4.PNG)
+
+After bottoming out in 2021, we can see a sharp increase in mortgage interest rates, topping out near 7% in late 2022. What impact has rising intertest rates had on home prices? Does that impact differ by region? To answer these question, we can use python to combine both of these datasets. Using pyplot we can plot the home prices for each region with the mortgage rate data.
+
+![dist_loc](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/fred_project/fred5.png)
+
+
