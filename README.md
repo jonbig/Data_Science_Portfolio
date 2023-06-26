@@ -41,6 +41,16 @@ For this project we will be analyzing comments from online cycling communities o
 - Pandas, Sklearn, Statsmodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
 - ROC Curve, Classification Report,
 
+# [Home Vaues vs Interest Rates](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/fred_project/fred_project.ipynb)
+
+### **Project Overview**
+
+The FRED API (Federal Reserve Economic Data API) provides access to a wide range of economic data from reliable sources such as government agencies and central banks. In this project we will use the FRED API to extract home sales and interest rate data. We will use python to process and combine the data in order to determine how rising interest rates have affected home prices in various geographic regions in the US. 
+
+### Skills
+
+- Python, Plotly, Numpy, Maptplotlib
+- Pands, FRED API
 
 # [Voter Turnout Model](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/voter_turnout_model)
 
