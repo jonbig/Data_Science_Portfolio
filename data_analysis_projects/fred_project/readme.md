@@ -1,4 +1,4 @@
-# [Home Vaues vs Interest Rates](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/fred_project/fred_project.ipynb)
+# [Home Values vs Interest Rates](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/fred_project/fred_project.ipynb)
 
 ### **Project Overview**
 
