@@ -54,7 +54,7 @@ For this project we will be analyzing comments from online cycling communities o
 - Pandas, Sklearn, Statsmodels, Seaborn, Numpy, Matplotlib, Jupyter Notebooks
 - ROC Curve, Classification Report,
 
-# [Home Vaues vs Interest Rates](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/fred_project/fred_project.ipynb)
+# [Home Values vs Interest Rates](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/fred_project/fred_project.ipynb)
 
 ### **Project Overview**
 
