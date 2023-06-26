@@ -16,6 +16,19 @@ Below you will find links to all projects each with a brief project summary. Tha
 
 _Note: Several of the Data Visualization Projects below are components of a larger political data project I named [Dark Money Spotlight](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker2/DistrictDash). This project was designed to allow Colorado voters to easily evaluate the candidates and committees making political expenditures in their local districts. Thousands of Colorado voters used the Dark Money Spotlight website to research political candidates in advance of the 2022 midterm elections. The website has since been taken down, but you can still [access the political spending tracker here.](https://public.tableau.com/app/profile/jon.biggerstaff/viz/ColoradoPoliticalSpendingTracker2/DistrictDash) Please note the dashboards are not optimized for mobile._
 
+# [Ozone Forecasting Model](https://github.com/jonbig/Data_Science_Portfolio/blob/main/data_analysis_projects/voter_turnout_model/final_2019_denver_model.ipynb)
+
+### **Project Overview**
+
+At ground level, ozone is a pollutant and a component of smog. It forms through chemical reactions involving sunlight, nitrogen oxides (NOx), and volatile organic compounds (VOCs) emitted by various sources such as vehicles and industries. High levels of ground-level ozone can cause respiratory issues and worsen conditions like asthma and COPD. Monitoring ozone levels helps assess overall air pollution and the effectiveness of pollution control measures.
+
+The goal of this project is to use time series data to build a model to forecast how much ozone will be present in the air of Los Angeles, CA. 
+
+### Skills
+
+- Python, Prophet, Sklearn
+- Pandas, matplotlib, numpy, seaborn
+
 # [Cycling Brand Sentiment Analysis](https://github.com/jonbig/Data_Science_Portfolio/tree/main/data_analysis_projects/cycling_brand_sentiment)
 
 ### **Project Overview**
